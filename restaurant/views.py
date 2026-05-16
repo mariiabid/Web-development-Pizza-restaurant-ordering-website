@@ -14,3 +14,6 @@ def menu(request):
         'drinks':drinks,
     }
     return render(request, 'restaurant/menu.html')
+
+def register(request):
+    return render(request, 'restaurant/register.html')
