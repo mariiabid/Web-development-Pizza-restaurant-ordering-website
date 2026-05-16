@@ -35,10 +35,19 @@ class Product(models.Model):
         ('pizza', 'Pizza'),
         ('drink', 'Drink'),
     )
+
+    DIET_CHOICES = (
+        ('none', 'None'),
+        ('vegetarian', 'Vegetarian'),
+        ('vegan', 'Vegan'),
+        ('halal', 'Halal'),
+        ('gluten_free', 'Gluten Free'),
+    )
     name = models.CharField(max_length=200, unique = True)
     description = models.TextField(blank = True)
     product_type = models.CharField(max_length=20, choices=PRODUCT_TYPES)
     is_available = models.BooleanField(default=True)
+    diet_info = models.CharField(max_length=20, choices=DIET_CHOICES, default='none')
 
     def __str__(self):
         return self.name
