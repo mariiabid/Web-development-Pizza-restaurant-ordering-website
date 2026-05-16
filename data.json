@@ -1,0 +1,1417 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-05-16T17:14:29.206Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "1",
+    "object_repr": "Small",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-05-16T17:14:42.997Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "2",
+    "object_repr": "Medium",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-05-16T17:14:54.314Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "3",
+    "object_repr": "Large",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-05-16T17:15:22.962Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "4",
+    "object_repr": "Small drink",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-05-16T17:15:51.876Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "5",
+    "object_repr": "Medium drink",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-05-16T17:16:06.809Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "6",
+    "object_repr": "Large drink",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-05-16T17:17:17.779Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Gluten",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-05-16T17:17:20.694Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Dairy",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-05-16T17:17:24.013Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Eggs",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-05-16T17:17:27.000Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Nuts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-05-16T17:17:28.983Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Soy",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-05-16T17:17:40.349Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Sesame",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-05-16T17:22:19.991Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "1",
+    "object_repr": "Mozzarella",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"topping allergen\", \"object\": \"Mozzarella - Dairy\"}}, {\"added\": {\"name\": \"topping size price\", \"object\": \"Mozzarella - Small - 25\"}}, {\"added\": {\"name\": \"topping size price\", \"object\": \"Mozzarella - Medium - 35\"}}, {\"added\": {\"name\": \"topping size price\", \"object\": \"Mozzarella - Large - 45\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-05-16T17:22:57.311Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "2",
+    "object_repr": "Pepperoni",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"topping size price\", \"object\": \"Pepperoni - Small - 35\"}}, {\"added\": {\"name\": \"topping size price\", \"object\": \"Pepperoni - Medium - 45\"}}, {\"added\": {\"name\": \"topping size price\", \"object\": \"Pepperoni - Large - 55\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-05-16T17:23:26.041Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "3",
+    "object_repr": "Mushrooms",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"topping size price\", \"object\": \"Mushrooms - Small - 20\"}}, {\"added\": {\"name\": \"topping size price\", \"object\": \"Mushrooms - Medium - 30\"}}, {\"added\": {\"name\": \"topping size price\", \"object\": \"Mushrooms - Large - 40\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-05-16T17:23:56.258Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "4",
+    "object_repr": "Bell Peppers",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"topping size price\", \"object\": \"Bell Peppers - Small - 20\"}}, {\"added\": {\"name\": \"topping size price\", \"object\": \"Bell Peppers - Medium - 30\"}}, {\"added\": {\"name\": \"topping size price\", \"object\": \"Bell Peppers - Large - 40\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-05-16T17:25:03.159Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "5",
+    "object_repr": "Olives",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"topping size price\", \"object\": \"Olives - Small - 20\"}}, {\"added\": {\"name\": \"topping size price\", \"object\": \"Olives - Medium - 30\"}}, {\"added\": {\"name\": \"topping size price\", \"object\": \"Olives - Large - 40\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-05-16T17:38:52.977Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "Margherita",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product size\", \"object\": \"Margherita - Small\"}}, {\"added\": {\"name\": \"product size\", \"object\": \"Margherita - Medium\"}}, {\"added\": {\"name\": \"product size\", \"object\": \"Margherita - Large\"}}, {\"added\": {\"name\": \"product allergen\", \"object\": \"Margherita - Gluten\"}}, {\"added\": {\"name\": \"product allergen\", \"object\": \"Margherita - Dairy\"}}, {\"added\": {\"name\": \"pizza topping\", \"object\": \"Margherita - Mozzarella\"}}, {\"added\": {\"name\": \"pizza topping\", \"object\": \"Margherita - Mushrooms\"}}, {\"added\": {\"name\": \"pizza topping\", \"object\": \"Margherita - Bell Peppers\"}}, {\"added\": {\"name\": \"pizza topping\", \"object\": \"Margherita - Olives\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-05-16T17:42:37.180Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "2",
+    "object_repr": "Pepperoni",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product size\", \"object\": \"Pepperoni - Small\"}}, {\"added\": {\"name\": \"product size\", \"object\": \"Pepperoni - Medium\"}}, {\"added\": {\"name\": \"product size\", \"object\": \"Pepperoni - Large\"}}, {\"added\": {\"name\": \"product allergen\", \"object\": \"Pepperoni - Gluten\"}}, {\"added\": {\"name\": \"product allergen\", \"object\": \"Pepperoni - Dairy\"}}, {\"added\": {\"name\": \"pizza topping\", \"object\": \"Pepperoni - Mozzarella\"}}, {\"added\": {\"name\": \"pizza topping\", \"object\": \"Pepperoni - Pepperoni\"}}, {\"added\": {\"name\": \"pizza topping\", \"object\": \"Pepperoni - Mushrooms\"}}, {\"added\": {\"name\": \"pizza topping\", \"object\": \"Pepperoni - Olives\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2026-05-16T17:43:50.260Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "3",
+    "object_repr": "Vegetariana",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product size\", \"object\": \"Vegetariana - Small\"}}, {\"added\": {\"name\": \"product size\", \"object\": \"Vegetariana - Medium\"}}, {\"added\": {\"name\": \"product size\", \"object\": \"Vegetariana - Large\"}}, {\"added\": {\"name\": \"product allergen\", \"object\": \"Vegetariana - Gluten\"}}, {\"added\": {\"name\": \"product allergen\", \"object\": \"Vegetariana - Dairy\"}}, {\"added\": {\"name\": \"pizza topping\", \"object\": \"Vegetariana - Mozzarella\"}}, {\"added\": {\"name\": \"pizza topping\", \"object\": \"Vegetariana - Mushrooms\"}}, {\"added\": {\"name\": \"pizza topping\", \"object\": \"Vegetariana - Bell Peppers\"}}, {\"added\": {\"name\": \"pizza topping\", \"object\": \"Vegetariana - Olives\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2026-05-16T17:45:04.163Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "6",
+    "object_repr": "Chicken",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2026-05-16T17:45:20.160Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "4",
+    "object_repr": "Chicken Pesto",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product size\", \"object\": \"Chicken Pesto - Small\"}}, {\"added\": {\"name\": \"product size\", \"object\": \"Chicken Pesto - Medium\"}}, {\"added\": {\"name\": \"product size\", \"object\": \"Chicken Pesto - Large\"}}, {\"added\": {\"name\": \"product allergen\", \"object\": \"Chicken Pesto - Gluten\"}}, {\"added\": {\"name\": \"product allergen\", \"object\": \"Chicken Pesto - Dairy\"}}, {\"added\": {\"name\": \"product allergen\", \"object\": \"Chicken Pesto - Nuts\"}}, {\"added\": {\"name\": \"pizza topping\", \"object\": \"Chicken Pesto - Mozzarella\"}}, {\"added\": {\"name\": \"pizza topping\", \"object\": \"Chicken Pesto - Chicken\"}}, {\"added\": {\"name\": \"pizza topping\", \"object\": \"Chicken Pesto - Bell Peppers\"}}, {\"added\": {\"name\": \"pizza topping\", \"object\": \"Chicken Pesto - Olives\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2026-05-16T17:46:00.340Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "5",
+    "object_repr": "Vegan Delight",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product size\", \"object\": \"Vegan Delight - Small\"}}, {\"added\": {\"name\": \"product size\", \"object\": \"Vegan Delight - Medium\"}}, {\"added\": {\"name\": \"product size\", \"object\": \"Vegan Delight - Large\"}}, {\"added\": {\"name\": \"product allergen\", \"object\": \"Vegan Delight - Gluten\"}}, {\"added\": {\"name\": \"pizza topping\", \"object\": \"Vegan Delight - Mushrooms\"}}, {\"added\": {\"name\": \"pizza topping\", \"object\": \"Vegan Delight - Bell Peppers\"}}, {\"added\": {\"name\": \"pizza topping\", \"object\": \"Vegan Delight - Olives\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2026-05-16T17:46:39.829Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "6",
+    "object_repr": "Chicken",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"topping size price\", \"object\": \"Chicken - Small - 35\"}}, {\"added\": {\"name\": \"topping size price\", \"object\": \"Chicken - Medium - 45\"}}, {\"added\": {\"name\": \"topping size price\", \"object\": \"Chicken - Large - 55\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2026-05-16T17:47:37.334Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "6",
+    "object_repr": "Coca Cola",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product size\", \"object\": \"Coca Cola - Small\"}}, {\"added\": {\"name\": \"product size\", \"object\": \"Coca Cola - Medium\"}}, {\"added\": {\"name\": \"product size\", \"object\": \"Coca Cola - Large\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2026-05-16T17:48:05.833Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "7",
+    "object_repr": "Pepsi Max",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product size\", \"object\": \"Pepsi Max - Small\"}}, {\"added\": {\"name\": \"product size\", \"object\": \"Pepsi Max - Medium\"}}, {\"added\": {\"name\": \"product size\", \"object\": \"Pepsi Max - Large\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2026-05-16T17:48:44.657Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "8",
+    "object_repr": "Sparkling Water",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product size\", \"object\": \"Sparkling Water - Small\"}}, {\"added\": {\"name\": \"product size\", \"object\": \"Sparkling Water - Medium\"}}, {\"added\": {\"name\": \"product size\", \"object\": \"Sparkling Water - Large\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2026-05-16T17:49:32.253Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "9",
+    "object_repr": "White Monster",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product size\", \"object\": \"White Monster - Small\"}}, {\"added\": {\"name\": \"product size\", \"object\": \"White Monster - Medium\"}}, {\"added\": {\"name\": \"product size\", \"object\": \"White Monster - Large\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2026-05-16T17:50:04.250Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "BI Norwegian Business School",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2026-05-16T17:50:19.645Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "University of Oslo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2026-05-16T17:50:30.172Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "3",
+    "object_repr": "Oslo Metropolitan University",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2026-05-16T17:51:46.746Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "4",
+    "object_repr": "Kristiania",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2026-05-16T17:52:27.674Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Pizza Stamp Card",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2026-05-16T17:52:39.785Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Combo Stamp Card",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "a3nw5wpeddb24ncgby4mdlqcd4hm2560",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSFwb-Xh0r3fQIALUjWQlHZl_HdL0oWuJplzZt7M-W0tbutpcTOxC5Ps9NsFH5-pDkAPX--Nx1bXZQ58KPygnd8apdf1cP8Oiu9lrFHghKSmhKhQ2BBAg7YACgAtGYhZWx_IhiRl3L28p5Amng16yol9vrjHN2w:1wLjW7:nRLI768JkEWE-JOm5Y2z9gxNgV_sC2EFZjDLPmNlXf8",
+    "expire_date": "2026-05-23T15:22:59.852Z"
+  }
+},
+{
+  "model": "restaurant.university",
+  "pk": 1,
+  "fields": {
+    "name": "BI Norwegian Business School",
+    "email_domain": "bi.no",
+    "is_active": true
+  }
+},
+{
+  "model": "restaurant.university",
+  "pk": 2,
+  "fields": {
+    "name": "University of Oslo",
+    "email_domain": "uio.no",
+    "is_active": true
+  }
+},
+{
+  "model": "restaurant.university",
+  "pk": 3,
+  "fields": {
+    "name": "Oslo Metropolitan University",
+    "email_domain": "oslomet.no",
+    "is_active": true
+  }
+},
+{
+  "model": "restaurant.university",
+  "pk": 4,
+  "fields": {
+    "name": "Kristiania",
+    "email_domain": "kristiania.no",
+    "is_active": true
+  }
+},
+{
+  "model": "restaurant.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$bYlNJcdcLcIRJcgYoM5utt$u0rdDhqFvbTCB57eyf9PoQJeX0vrcnZW8rwk6PsgMdQ=",
+    "last_login": "2026-05-09T15:22:59.851Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-05-09T15:21:42.953Z",
+    "role": "customer",
+    "is_verified_student": false,
+    "university": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "restaurant.product",
+  "pk": 1,
+  "fields": {
+    "name": "Margherita",
+    "description": "Classic tomato sauce with fresh mozzarella and basil",
+    "product_type": "pizza",
+    "is_available": true,
+    "diet_info": "vegetarian"
+  }
+},
+{
+  "model": "restaurant.product",
+  "pk": 2,
+  "fields": {
+    "name": "Pepperoni",
+    "description": "Classic tomato sauce with pepperoni and mozzarella",
+    "product_type": "pizza",
+    "is_available": true,
+    "diet_info": "none"
+  }
+},
+{
+  "model": "restaurant.product",
+  "pk": 3,
+  "fields": {
+    "name": "Vegetariana",
+    "description": "Fresh vegetables on tomato sauce with mozzarella",
+    "product_type": "pizza",
+    "is_available": true,
+    "diet_info": "vegetarian"
+  }
+},
+{
+  "model": "restaurant.product",
+  "pk": 4,
+  "fields": {
+    "name": "Chicken Pesto",
+    "description": "Pesto base with grilled chicken and mozzarella",
+    "product_type": "pizza",
+    "is_available": true,
+    "diet_info": "halal"
+  }
+},
+{
+  "model": "restaurant.product",
+  "pk": 5,
+  "fields": {
+    "name": "Vegan Delight",
+    "description": "Tomato sauce with fresh seasonal vegetables, no dairy",
+    "product_type": "pizza",
+    "is_available": true,
+    "diet_info": "vegan"
+  }
+},
+{
+  "model": "restaurant.product",
+  "pk": 6,
+  "fields": {
+    "name": "Coca Cola",
+    "description": "",
+    "product_type": "drink",
+    "is_available": true,
+    "diet_info": "none"
+  }
+},
+{
+  "model": "restaurant.product",
+  "pk": 7,
+  "fields": {
+    "name": "Pepsi Max",
+    "description": "",
+    "product_type": "drink",
+    "is_available": true,
+    "diet_info": "none"
+  }
+},
+{
+  "model": "restaurant.product",
+  "pk": 8,
+  "fields": {
+    "name": "Sparkling Water",
+    "description": "",
+    "product_type": "drink",
+    "is_available": true,
+    "diet_info": "none"
+  }
+},
+{
+  "model": "restaurant.product",
+  "pk": 9,
+  "fields": {
+    "name": "White Monster",
+    "description": "Energy drink Monster",
+    "product_type": "drink",
+    "is_available": true,
+    "diet_info": "none"
+  }
+},
+{
+  "model": "restaurant.size",
+  "pk": 1,
+  "fields": {
+    "name": "Small",
+    "description": "25cm diameter",
+    "size_type": "pizza"
+  }
+},
+{
+  "model": "restaurant.size",
+  "pk": 2,
+  "fields": {
+    "name": "Medium",
+    "description": "30cm diameter",
+    "size_type": "pizza"
+  }
+},
+{
+  "model": "restaurant.size",
+  "pk": 3,
+  "fields": {
+    "name": "Large",
+    "description": "40cm diameter",
+    "size_type": "pizza"
+  }
+},
+{
+  "model": "restaurant.size",
+  "pk": 4,
+  "fields": {
+    "name": "Small drink",
+    "description": "0.33L",
+    "size_type": "drink"
+  }
+},
+{
+  "model": "restaurant.size",
+  "pk": 5,
+  "fields": {
+    "name": "Medium drink",
+    "description": "0.5L",
+    "size_type": "drink"
+  }
+},
+{
+  "model": "restaurant.size",
+  "pk": 6,
+  "fields": {
+    "name": "Large drink",
+    "description": "1L",
+    "size_type": "drink"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 1,
+  "fields": {
+    "product": 1,
+    "size": 1,
+    "base_price": "159.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 2,
+  "fields": {
+    "product": 1,
+    "size": 2,
+    "base_price": "199.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 3,
+  "fields": {
+    "product": 1,
+    "size": 3,
+    "base_price": "249.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 4,
+  "fields": {
+    "product": 2,
+    "size": 1,
+    "base_price": "169.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 5,
+  "fields": {
+    "product": 2,
+    "size": 2,
+    "base_price": "209.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 6,
+  "fields": {
+    "product": 2,
+    "size": 3,
+    "base_price": "259.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 7,
+  "fields": {
+    "product": 3,
+    "size": 1,
+    "base_price": "159.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 8,
+  "fields": {
+    "product": 3,
+    "size": 2,
+    "base_price": "199.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 9,
+  "fields": {
+    "product": 3,
+    "size": 3,
+    "base_price": "249.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 10,
+  "fields": {
+    "product": 4,
+    "size": 1,
+    "base_price": "179.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 11,
+  "fields": {
+    "product": 4,
+    "size": 2,
+    "base_price": "219.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 12,
+  "fields": {
+    "product": 4,
+    "size": 3,
+    "base_price": "269.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 13,
+  "fields": {
+    "product": 5,
+    "size": 1,
+    "base_price": "159.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 14,
+  "fields": {
+    "product": 5,
+    "size": 2,
+    "base_price": "199.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 15,
+  "fields": {
+    "product": 5,
+    "size": 3,
+    "base_price": "249.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 16,
+  "fields": {
+    "product": 6,
+    "size": 1,
+    "base_price": "45.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 17,
+  "fields": {
+    "product": 6,
+    "size": 2,
+    "base_price": "59.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 18,
+  "fields": {
+    "product": 6,
+    "size": 3,
+    "base_price": "79.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 19,
+  "fields": {
+    "product": 7,
+    "size": 1,
+    "base_price": "45.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 20,
+  "fields": {
+    "product": 7,
+    "size": 2,
+    "base_price": "59.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 21,
+  "fields": {
+    "product": 7,
+    "size": 3,
+    "base_price": "79.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 22,
+  "fields": {
+    "product": 8,
+    "size": 1,
+    "base_price": "35.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 23,
+  "fields": {
+    "product": 8,
+    "size": 2,
+    "base_price": "49.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 24,
+  "fields": {
+    "product": 8,
+    "size": 3,
+    "base_price": "65.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 25,
+  "fields": {
+    "product": 9,
+    "size": 1,
+    "base_price": "49.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 26,
+  "fields": {
+    "product": 9,
+    "size": 2,
+    "base_price": "65.00"
+  }
+},
+{
+  "model": "restaurant.productsize",
+  "pk": 27,
+  "fields": {
+    "product": 9,
+    "size": 3,
+    "base_price": "85.00"
+  }
+},
+{
+  "model": "restaurant.allergen",
+  "pk": 1,
+  "fields": {
+    "name": "Gluten"
+  }
+},
+{
+  "model": "restaurant.allergen",
+  "pk": 2,
+  "fields": {
+    "name": "Dairy"
+  }
+},
+{
+  "model": "restaurant.allergen",
+  "pk": 3,
+  "fields": {
+    "name": "Eggs"
+  }
+},
+{
+  "model": "restaurant.allergen",
+  "pk": 4,
+  "fields": {
+    "name": "Nuts"
+  }
+},
+{
+  "model": "restaurant.allergen",
+  "pk": 5,
+  "fields": {
+    "name": "Soy"
+  }
+},
+{
+  "model": "restaurant.allergen",
+  "pk": 6,
+  "fields": {
+    "name": "Sesame"
+  }
+},
+{
+  "model": "restaurant.productallergen",
+  "pk": 1,
+  "fields": {
+    "product": 1,
+    "allergen": 1
+  }
+},
+{
+  "model": "restaurant.productallergen",
+  "pk": 2,
+  "fields": {
+    "product": 1,
+    "allergen": 2
+  }
+},
+{
+  "model": "restaurant.productallergen",
+  "pk": 3,
+  "fields": {
+    "product": 2,
+    "allergen": 1
+  }
+},
+{
+  "model": "restaurant.productallergen",
+  "pk": 4,
+  "fields": {
+    "product": 2,
+    "allergen": 2
+  }
+},
+{
+  "model": "restaurant.productallergen",
+  "pk": 5,
+  "fields": {
+    "product": 3,
+    "allergen": 1
+  }
+},
+{
+  "model": "restaurant.productallergen",
+  "pk": 6,
+  "fields": {
+    "product": 3,
+    "allergen": 2
+  }
+},
+{
+  "model": "restaurant.productallergen",
+  "pk": 7,
+  "fields": {
+    "product": 4,
+    "allergen": 1
+  }
+},
+{
+  "model": "restaurant.productallergen",
+  "pk": 8,
+  "fields": {
+    "product": 4,
+    "allergen": 2
+  }
+},
+{
+  "model": "restaurant.productallergen",
+  "pk": 9,
+  "fields": {
+    "product": 4,
+    "allergen": 4
+  }
+},
+{
+  "model": "restaurant.productallergen",
+  "pk": 10,
+  "fields": {
+    "product": 5,
+    "allergen": 1
+  }
+},
+{
+  "model": "restaurant.topping",
+  "pk": 1,
+  "fields": {
+    "name": "Mozzarella",
+    "is_available": true
+  }
+},
+{
+  "model": "restaurant.topping",
+  "pk": 2,
+  "fields": {
+    "name": "Pepperoni",
+    "is_available": true
+  }
+},
+{
+  "model": "restaurant.topping",
+  "pk": 3,
+  "fields": {
+    "name": "Mushrooms",
+    "is_available": true
+  }
+},
+{
+  "model": "restaurant.topping",
+  "pk": 4,
+  "fields": {
+    "name": "Bell Peppers",
+    "is_available": true
+  }
+},
+{
+  "model": "restaurant.topping",
+  "pk": 5,
+  "fields": {
+    "name": "Olives",
+    "is_available": true
+  }
+},
+{
+  "model": "restaurant.topping",
+  "pk": 6,
+  "fields": {
+    "name": "Chicken",
+    "is_available": true
+  }
+},
+{
+  "model": "restaurant.toppingallergen",
+  "pk": 1,
+  "fields": {
+    "topping": 1,
+    "allergen": 2
+  }
+},
+{
+  "model": "restaurant.pizzatopping",
+  "pk": 1,
+  "fields": {
+    "product": 1,
+    "topping": 1
+  }
+},
+{
+  "model": "restaurant.pizzatopping",
+  "pk": 2,
+  "fields": {
+    "product": 1,
+    "topping": 3
+  }
+},
+{
+  "model": "restaurant.pizzatopping",
+  "pk": 3,
+  "fields": {
+    "product": 1,
+    "topping": 4
+  }
+},
+{
+  "model": "restaurant.pizzatopping",
+  "pk": 4,
+  "fields": {
+    "product": 1,
+    "topping": 5
+  }
+},
+{
+  "model": "restaurant.pizzatopping",
+  "pk": 5,
+  "fields": {
+    "product": 2,
+    "topping": 1
+  }
+},
+{
+  "model": "restaurant.pizzatopping",
+  "pk": 6,
+  "fields": {
+    "product": 2,
+    "topping": 2
+  }
+},
+{
+  "model": "restaurant.pizzatopping",
+  "pk": 7,
+  "fields": {
+    "product": 2,
+    "topping": 3
+  }
+},
+{
+  "model": "restaurant.pizzatopping",
+  "pk": 8,
+  "fields": {
+    "product": 2,
+    "topping": 5
+  }
+},
+{
+  "model": "restaurant.pizzatopping",
+  "pk": 9,
+  "fields": {
+    "product": 3,
+    "topping": 1
+  }
+},
+{
+  "model": "restaurant.pizzatopping",
+  "pk": 10,
+  "fields": {
+    "product": 3,
+    "topping": 3
+  }
+},
+{
+  "model": "restaurant.pizzatopping",
+  "pk": 11,
+  "fields": {
+    "product": 3,
+    "topping": 4
+  }
+},
+{
+  "model": "restaurant.pizzatopping",
+  "pk": 12,
+  "fields": {
+    "product": 3,
+    "topping": 5
+  }
+},
+{
+  "model": "restaurant.pizzatopping",
+  "pk": 13,
+  "fields": {
+    "product": 4,
+    "topping": 1
+  }
+},
+{
+  "model": "restaurant.pizzatopping",
+  "pk": 14,
+  "fields": {
+    "product": 4,
+    "topping": 6
+  }
+},
+{
+  "model": "restaurant.pizzatopping",
+  "pk": 15,
+  "fields": {
+    "product": 4,
+    "topping": 4
+  }
+},
+{
+  "model": "restaurant.pizzatopping",
+  "pk": 16,
+  "fields": {
+    "product": 4,
+    "topping": 5
+  }
+},
+{
+  "model": "restaurant.pizzatopping",
+  "pk": 17,
+  "fields": {
+    "product": 5,
+    "topping": 3
+  }
+},
+{
+  "model": "restaurant.pizzatopping",
+  "pk": 18,
+  "fields": {
+    "product": 5,
+    "topping": 4
+  }
+},
+{
+  "model": "restaurant.pizzatopping",
+  "pk": 19,
+  "fields": {
+    "product": 5,
+    "topping": 5
+  }
+},
+{
+  "model": "restaurant.toppingsizeprice",
+  "pk": 1,
+  "fields": {
+    "topping": 1,
+    "size": 1,
+    "price": "25.00"
+  }
+},
+{
+  "model": "restaurant.toppingsizeprice",
+  "pk": 2,
+  "fields": {
+    "topping": 1,
+    "size": 2,
+    "price": "35.00"
+  }
+},
+{
+  "model": "restaurant.toppingsizeprice",
+  "pk": 3,
+  "fields": {
+    "topping": 1,
+    "size": 3,
+    "price": "45.00"
+  }
+},
+{
+  "model": "restaurant.toppingsizeprice",
+  "pk": 4,
+  "fields": {
+    "topping": 2,
+    "size": 1,
+    "price": "35.00"
+  }
+},
+{
+  "model": "restaurant.toppingsizeprice",
+  "pk": 5,
+  "fields": {
+    "topping": 2,
+    "size": 2,
+    "price": "45.00"
+  }
+},
+{
+  "model": "restaurant.toppingsizeprice",
+  "pk": 6,
+  "fields": {
+    "topping": 2,
+    "size": 3,
+    "price": "55.00"
+  }
+},
+{
+  "model": "restaurant.toppingsizeprice",
+  "pk": 7,
+  "fields": {
+    "topping": 3,
+    "size": 1,
+    "price": "20.00"
+  }
+},
+{
+  "model": "restaurant.toppingsizeprice",
+  "pk": 8,
+  "fields": {
+    "topping": 3,
+    "size": 2,
+    "price": "30.00"
+  }
+},
+{
+  "model": "restaurant.toppingsizeprice",
+  "pk": 9,
+  "fields": {
+    "topping": 3,
+    "size": 3,
+    "price": "40.00"
+  }
+},
+{
+  "model": "restaurant.toppingsizeprice",
+  "pk": 10,
+  "fields": {
+    "topping": 4,
+    "size": 1,
+    "price": "20.00"
+  }
+},
+{
+  "model": "restaurant.toppingsizeprice",
+  "pk": 11,
+  "fields": {
+    "topping": 4,
+    "size": 2,
+    "price": "30.00"
+  }
+},
+{
+  "model": "restaurant.toppingsizeprice",
+  "pk": 12,
+  "fields": {
+    "topping": 4,
+    "size": 3,
+    "price": "40.00"
+  }
+},
+{
+  "model": "restaurant.toppingsizeprice",
+  "pk": 13,
+  "fields": {
+    "topping": 5,
+    "size": 1,
+    "price": "20.00"
+  }
+},
+{
+  "model": "restaurant.toppingsizeprice",
+  "pk": 14,
+  "fields": {
+    "topping": 5,
+    "size": 2,
+    "price": "30.00"
+  }
+},
+{
+  "model": "restaurant.toppingsizeprice",
+  "pk": 15,
+  "fields": {
+    "topping": 5,
+    "size": 3,
+    "price": "40.00"
+  }
+},
+{
+  "model": "restaurant.toppingsizeprice",
+  "pk": 16,
+  "fields": {
+    "topping": 6,
+    "size": 1,
+    "price": "35.00"
+  }
+},
+{
+  "model": "restaurant.toppingsizeprice",
+  "pk": 17,
+  "fields": {
+    "topping": 6,
+    "size": 2,
+    "price": "45.00"
+  }
+},
+{
+  "model": "restaurant.toppingsizeprice",
+  "pk": 18,
+  "fields": {
+    "topping": 6,
+    "size": 3,
+    "price": "55.00"
+  }
+},
+{
+  "model": "restaurant.loyaltyprogram",
+  "pk": 1,
+  "fields": {
+    "name": "Pizza Stamp Card",
+    "program_type": "pizza_only",
+    "stamps_required": 8,
+    "discount_pct": "100.00"
+  }
+},
+{
+  "model": "restaurant.loyaltyprogram",
+  "pk": 2,
+  "fields": {
+    "name": "Combo Stamp Card",
+    "program_type": "pizza_and_drink",
+    "stamps_required": 8,
+    "discount_pct": "100.00"
+  }
+}
+]
