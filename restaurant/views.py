@@ -9,11 +9,13 @@ def home(request):
 def menu(request):
     pizzas = Product.objects.filter(product_type = 'pizza', is_available = True)
     drinks =  Product.objects.filter(product_type = 'drink', is_available = True)
+    print("PIZZAS:", pizzas)
+    print("DRINKS:", drinks)
     context = {
         'pizzas':pizzas,
         'drinks':drinks,
     }
-    return render(request, 'restaurant/menu.html')
+    return render(request, 'restaurant/menu.html', context)
 
 def register(request):
     return render(request, 'restaurant/register.html')
