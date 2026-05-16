@@ -1,0 +1,59 @@
+{% extends 'restaurant/base.html' %}
+
+{% block title %}Oslo Pizza - Menu{% endblock %}
+
+{% block content %}
+<h1 class="mb-4">Our Menu</h1>
+
+<h2 class="mb-3">🍕 Pizzas</h2>
+<div class="row">
+    {% for pizza in pizzas %}
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">{{ pizza.name }}</h5>
+                <p class="card-text text-muted">{{ pizza.description }}</p>
+                {% if pizza.dietary_info != 'none' %}
+                    {% if pizza.dietary_info == 'vegetarian' %}
+                        <span class="badge bg-success">🌿 Vegetarian</span>
+                    {% elif pizza.dietary_info == 'vegan' %}
+                        <span class="badge bg-success">🌱 Vegan</span>
+                    {% elif pizza.dietary_info == 'halal' %}
+                        <span class="badge bg-primary">☪ Halal</span>
+                    {% endif %}
+                {% endif %}
+                <div class="mt-2">
+                    {% for ps in pizza.productsize_set.all %}
+                        <small class="text-muted">{{ ps.size.name }}: {{ ps.base_price }} NOK</small><br>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="card-footer">
+                <a href="#" class="btn btn-danger w-100">Order Now</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<h2 class="mt-5 mb-3">🥤 Drinks</h2>
+<div class="row">
+    {% for drink in drinks %}
+    <div class="col-md-3 mb-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">{{ drink.name }}</h5>
+                <div class="mt-2">
+                    {% for ps in drink.productsize_set.all %}
+                        <small class="text-muted">{{ ps.size.name }}: {{ ps.base_price }} NOK</small><br>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="card-footer">
+                <a href="#" class="btn btn-outline-danger w-100">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

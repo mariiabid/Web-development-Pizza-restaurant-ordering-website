@@ -1,0 +1,26 @@
+{% extends 'restaurant/base.html' %}
+
+{% block title %}Oslo Pizza - Home{% endblock %}
+
+{% block content %}
+<div class="text-center py-5">
+    <h1 class="display-4 fw-bold">Welcome to Oslo Pizza!</h1>
+    <p class="lead text-muted">Fresh, customizable pizzas delivered fast. Student discounts available!</p>
+    <a href="{% url 'menu' %}" class="btn btn-danger btn-lg mt-3">View Our Menu</a>
+</div>
+
+<div class="row mt-5 text-center">
+    <div class="col-md-4">
+        <h3>🎓 Student Discounts</h3>
+        <p>Verified students get exclusive deals and loyalty rewards.</p>
+    </div>
+    <div class="col-md-4">
+        <h3>🚀 Fast Delivery</h3>
+        <p>Get your pizza in under 30 minutes!</p>
+    </div>
+    <div class="col-md-4">
+        <h3>⭐ Loyalty Rewards</h3>
+        <p>Collect 8 stamps and get a free pizza!</p>
+    </div>
+</div>
+{% endblock %}

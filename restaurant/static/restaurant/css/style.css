@@ -1,0 +1,27 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card {
+    transition: transform 0.2s;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.btn-danger {
+    background-color: #c0392b;
+    border-color: #c0392b;
+}
+
+footer {
+    margin-top: auto;
+}
