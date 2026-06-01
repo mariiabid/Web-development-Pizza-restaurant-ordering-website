@@ -23,11 +23,14 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{% url 'menu' %}">Menu</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'order_history' %}">My Orders</a>
+                    </li>
                 </ul>
                 <ul class="navbar-nav">
                     {% if user.is_authenticated %}
-                        <li class="nav-item d-flex align-items-center">
-                            <span class="nav-link text-light">👋 {{ user.username }}</span>
+                        <li class="nav-item">
+                            <span class="navbar-text text-light me-2">👋 {{ user.username }}</span>
                         </li>
                         <li class="nav-item">
                             <form method="POST" action="{% url 'logout' %}" class="d-inline">
