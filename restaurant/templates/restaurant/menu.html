@@ -24,6 +24,17 @@
                         <span class="badge bg-warning text-dark">🌾 Gluten Free</span>
                     {% endif %}
                 {% endif %}
+
+                {% with allergens=pizza.productallergen_set.all %}
+                    {% if allergens %}
+                        <div class="mt-1">
+                            {% for pa in allergens %}
+                                <span class="badge bg-danger" style="font-size: 0.7rem;">⚠️ {{ pa.allergen.name }}</span>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                {% endwith %}
+                
                 <div class="mt-2">
                     {% for ps in pizza.productsize_set.all %}
                         <small class="text-muted">{{ ps.size.name }}: {{ ps.base_price }} NOK</small><br>
@@ -31,7 +42,7 @@
                 </div>
             </div>
             <div class="card-footer">
-                <a href="#" class="btn btn-danger w-100">Order Now</a>
+                <a href="{% url 'pizza_detail' pizza.id %}" class="btn btn-danger w-100">Order Now</a>
             </div>
         </div>
     </div>
@@ -45,14 +56,24 @@
         <div class="card h-100">
             <div class="card-body">
                 <h5 class="card-title">{{ drink.name }}</h5>
-                <div class="mt-2">
-                    {% for ps in drink.productsize_set.all %}
-                        <small class="text-muted">{{ ps.size.name }}: {{ ps.base_price }} NOK</small><br>
-                    {% endfor %}
-                </div>
-            </div>
-            <div class="card-footer">
-                <a href="#" class="btn btn-outline-danger w-100">Add to Cart</a>
+                <form method="POST" action="{% url 'add_to_cart' %}">
+                    {% csrf_token %}
+                    <div class="mt-2">
+                        {% for ps in drink.productsize_set.all %}
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio"
+                                name="product_size_id"
+                                id="drink_{{ ps.id }}"
+                                value="{{ ps.id }}"
+                                {% if forloop.first %}checked{% endif %}>
+                            <label class="form-check-label small" for="drink_{{ ps.id }}">
+                                {{ ps.size.name }}: {{ ps.base_price }} NOK
+                            </label>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <button type="submit" class="btn btn-outline-danger w-100 mt-2">Add to Cart</button>
+                </form>
             </div>
         </div>
     </div>
