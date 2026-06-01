@@ -1,0 +1,56 @@
+{% extends 'restaurant/base.html' %}
+
+{% block title %}Your Cart - Oslo Pizza{% endblock %}
+
+{% block content %}
+<h1 class="mb-4">🛒 Your Cart</h1>
+
+{% if items %}
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Size</th>
+                <th>Toppings</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in items %}
+            <tr>
+                <td>{{ item.product_size.product.name }}</td>
+                <td>{{ item.product_size.size.name }}</td>
+                <td>
+                    {% for oit in item.orderitemtopping_set.all %}
+                        <span class="badge bg-secondary">{{ oit.topping.name }}</span>
+                    {% empty %}
+                        <span class="text-muted">No extra toppings</span>
+                    {% endfor %}
+                </td>
+                <td>{{ item.item_total_price }} NOK</td>
+                <td>
+                    <a href="{% url 'remove_from_cart' item.id %}" class="btn btn-sm btn-outline-danger">Remove</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3"><strong>Total</strong></td>
+                <td><strong>{{ total }} NOK</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+<a href="{% url 'checkout' %}" class="btn btn-danger btn-lg mt-3">Proceed to Checkout</a>
+<a href="{% url 'menu' %}" class="btn btn-outline-secondary mt-3 ms-2">Continue Shopping</a>
+
+{% else %}
+<div class="text-center py-5">
+    <h4 class="text-muted">Your cart is empty</h4>
+    <a href="{% url 'menu' %}" class="btn btn-danger mt-3">Browse Menu</a>
+</div>
+{% endif %}
+{% endblock %}

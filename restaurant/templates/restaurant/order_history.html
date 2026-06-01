@@ -1,0 +1,61 @@
+{% extends 'restaurant/base.html' %}
+
+{% block title %}My Orders - Oslo Pizza{% endblock %}
+
+{% block content %}
+<h1 class="mb-4">My Orders</h1>
+
+{% if orders %}
+    {% for order in orders %}
+    <div class="card mb-3">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <strong>Order #{{ order.id }}</strong>
+            <span>{{ order.order_date|date:"d M Y, H:i" }}</span>
+            <span class="badge 
+                {% if order.status == 'ordered' %}bg-secondary
+                {% elif order.status == 'preparing' %}bg-warning text-dark
+                {% elif order.status == 'ready_for_pickup' %}bg-info text-dark
+                {% elif order.status == 'completed' %}bg-success
+                {% endif %}">
+                {{ order.get_status_display }}
+            </span>
+        </div>
+        <div class="card-body">
+            <table class="table table-sm mb-0">
+                <tbody>
+                    {% for item in order.items.all %}
+                    <tr>
+                        <td>{{ item.product_size.product.name }} ({{ item.product_size.size.name }})</td>
+                        <td>
+                            {% for oit in item.orderitemtopping_set.all %}
+                                <small class="text-muted">+ {{ oit.topping.name }}</small><br>
+                            {% endfor %}
+                        </td>
+                        <td class="text-end">{{ item.item_total_price }} NOK</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+                <tfoot>
+                    {% if order.discount_applied %}
+                    <tr class="text-success">
+                        <td colspan="2">🎓 Student discount</td>
+                        <td class="text-end">-{{ order.discount_applied }} NOK</td>
+                    </tr>
+                    {% endif %}
+                    <tr class="fw-bold">
+                        <td colspan="2">Total</td>
+                        <td class="text-end">{{ order.total_price }} NOK</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    {% endfor %}
+
+{% else %}
+    <div class="text-center py-5">
+        <h4 class="text-muted">No orders yet</h4>
+        <a href="{% url 'menu' %}" class="btn btn-danger mt-3">Order Now</a>
+    </div>
+{% endif %}
+{% endblock %}

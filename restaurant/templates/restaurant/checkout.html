@@ -1,0 +1,58 @@
+{% extends 'restaurant/base.html' %}
+
+{% block title %}Checkout - Oslo Pizza{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        <h1 class="mb-4">Checkout</h1>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Size</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in items %}
+                <tr>
+                    <td>
+                        {{ item.product_size.product.name }}
+                        {% for oit in item.orderitemtopping_set.all %}
+                            <br><small class="text-muted">+ {{ oit.topping.name }}</small>
+                        {% endfor %}
+                    </td>
+                    <td>{{ item.product_size.size.name }}</td>
+                    <td>{{ item.item_total_price }} NOK</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Subtotal</td>
+                    <td>{{ subtotal }} NOK</td>
+                </tr>
+                {% if discount %}
+                <tr class="text-success">
+                    <td colspan="2">🎓 Student discount (10%)</td>
+                    <td>-{{ discount }} NOK</td>
+                </tr>
+                {% endif %}
+                <tr class="fw-bold">
+                    <td colspan="2">Total</td>
+                    <td>{{ total }} NOK</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <form method="POST">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-danger w-100 btn-lg">Place Order</button>
+        </form>
+
+        <a href="{% url 'cart' %}" class="btn btn-link mt-2">← Back to Cart</a>
+    </div>
+</div>
+{% endblock %}
