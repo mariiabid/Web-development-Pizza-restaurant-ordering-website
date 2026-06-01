@@ -13,13 +13,15 @@
             <div class="card-body">
                 <h5 class="card-title">{{ pizza.name }}</h5>
                 <p class="card-text text-muted">{{ pizza.description }}</p>
-                {% if pizza.dietary_info != 'none' %}
-                    {% if pizza.dietary_info == 'vegetarian' %}
+                {% if pizza.diet_info != 'none' %}
+                    {% if pizza.diet_info == 'vegetarian' %}
                         <span class="badge bg-success">🌿 Vegetarian</span>
-                    {% elif pizza.dietary_info == 'vegan' %}
+                    {% elif pizza.diet_info == 'vegan' %}
                         <span class="badge bg-success">🌱 Vegan</span>
-                    {% elif pizza.dietary_info == 'halal' %}
+                    {% elif pizza.diet_info == 'halal' %}
                         <span class="badge bg-primary">☪ Halal</span>
+                    {% elif pizza.diet_info == 'gluten_free' %}
+                        <span class="badge bg-warning text-dark">🌾 Gluten Free</span>
                     {% endif %}
                 {% endif %}
                 <div class="mt-2">
