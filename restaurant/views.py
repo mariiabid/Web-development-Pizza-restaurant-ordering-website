@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth import login
 from django.contrib.auth.decorators import login_required
+from django.contrib.admin.views.decorators import staff_member_required
 from .models import Product, ProductSize, Topping, PizzaTopping, ToppingSizePrice, Order, OrderItem, OrderItemTopping
 from .forms import RegisterForm
 
@@ -186,3 +187,25 @@ def order_history(request):
         'orders': orders,
     }
     return render(request, 'restaurant/order_history.html', context)
+
+
+@staff_member_required
+def manage_orders(request):
+    orders = Order.objects.exclude(status = 'in basket').order_by('-order_date').select_related('user')
+    return render(request, 'restaurant/manage_orders.html', {'orders':orders})
+
+@staff_member_required
+def update_order_status(request, order_id):
+    if request.method != 'POST':
+        return redirect('manage_orders')
+
+    order = get_object_or_404(Order, id = order_id)
+    new_status = request.POST.get('status')
+
+    valid_statuses = ['ordered', 'preparing', 'ready_for_pickup', 'completed']
+    if new_status in valid_statuses:
+        order.status = new_status
+        order.save()
+        messages.success(request,f'Order #{order.id} updated to {order.get_status_display()}.')
+
+    return redirect('manage_orders')

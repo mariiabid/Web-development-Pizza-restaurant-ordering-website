@@ -1,0 +1,48 @@
+{% extends 'restaurant/base.html' %}
+
+{% block title %}Manage Orders - Oslo Pizza{% endblock %}
+
+{% block content %}
+<h1 class="mb-4">Manage Orders</h1>
+
+{% if orders %}
+<table class="table">
+    <thead>
+        <tr>
+            <th>Order</th>
+            <th>Customer</th>
+            <th>Date</th>
+            <th>Total</th>
+            <th>Status</th>
+            <th>Update</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for order in orders %}
+        <tr>
+            <td>#{{ order.id }}</td>
+            <td>{{ order.user.username }}</td>
+            <td>{{ order.order_date|date:"d M Y, H:i" }}</td>
+            <td>{{ order.total_price }} NOK</td>
+            <td>{{ order.get_status_display }}</td>
+            <td>
+                <form method="POST" action="{% url 'update_order_status' order.id %}" class="d-flex gap-2">
+                    {% csrf_token %}
+                    <select name="status" class="form-select form-select-sm w-auto">
+                        <option value="ordered" {% if order.status == 'ordered' %}selected{% endif %}>Ordered</option>
+                        <option value="preparing" {% if order.status == 'preparing' %}selected{% endif %}>Preparing</option>
+                        <option value="ready_for_pickup" {% if order.status == 'ready_for_pickup' %}selected{% endif %}>Ready for Pickup</option>
+                        <option value="completed" {% if order.status == 'completed' %}selected{% endif %}>Completed</option>
+                    </select>
+                    <button type="submit" class="btn btn-sm btn-danger">Update</button>
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% else %}
+<p class="text-muted">No orders yet.</p>
+{% endif %}
+{% endblock %}
