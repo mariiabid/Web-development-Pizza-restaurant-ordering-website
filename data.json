@@ -120,7 +120,7 @@
   "model": "admin.logentry",
   "pk": 10,
   "fields": {
-    "action_time": "2026-05-16T17:17:27Z",
+    "action_time": "2026-05-16T17:17:27.000Z",
     "user": 1,
     "content_type": 8,
     "object_id": "4",
@@ -442,6 +442,162 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2026-06-03T13:08:24.861Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Combo Stamp Card",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2026-06-03T13:12:23.707Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Pizza Stamp Card - 9th pizza is free",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2026-06-03T13:12:46.033Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "1 x Pepperoni",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2026-06-03T13:12:46.033Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "1 x Margherita",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2026-06-03T13:12:46.033Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "1 x Coca Cola",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2026-06-03T18:52:23.582Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "student_user",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2026-06-03T18:53:23.439Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "student_user",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email address\", \"University\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2026-06-03T18:54:21.479Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "guest_user",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2026-06-03T18:54:33.616Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "guest_user",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2026-06-03T18:55:02.857Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "student_user",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is verified student\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2026-06-03T18:55:17.204Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "hat",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2026-06-03T18:55:36.156Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "hat",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -626,7 +782,7 @@
   "pk": 21,
   "fields": {
     "name": "Can add university",
-    "content_type": 19,
+    "content_type": 6,
     "codename": "add_university"
   }
 },
@@ -635,7 +791,7 @@
   "pk": 22,
   "fields": {
     "name": "Can change university",
-    "content_type": 19,
+    "content_type": 6,
     "codename": "change_university"
   }
 },
@@ -644,7 +800,7 @@
   "pk": 23,
   "fields": {
     "name": "Can delete university",
-    "content_type": 19,
+    "content_type": 6,
     "codename": "delete_university"
   }
 },
@@ -653,7 +809,7 @@
   "pk": 24,
   "fields": {
     "name": "Can view university",
-    "content_type": 19,
+    "content_type": 6,
     "codename": "view_university"
   }
 },
@@ -662,7 +818,7 @@
   "pk": 25,
   "fields": {
     "name": "Can add user",
-    "content_type": 20,
+    "content_type": 7,
     "codename": "add_user"
   }
 },
@@ -671,7 +827,7 @@
   "pk": 26,
   "fields": {
     "name": "Can change user",
-    "content_type": 20,
+    "content_type": 7,
     "codename": "change_user"
   }
 },
@@ -680,7 +836,7 @@
   "pk": 27,
   "fields": {
     "name": "Can delete user",
-    "content_type": 20,
+    "content_type": 7,
     "codename": "delete_user"
   }
 },
@@ -689,7 +845,7 @@
   "pk": 28,
   "fields": {
     "name": "Can view user",
-    "content_type": 20,
+    "content_type": 7,
     "codename": "view_user"
   }
 },
@@ -698,7 +854,7 @@
   "pk": 29,
   "fields": {
     "name": "Can add allergen",
-    "content_type": 6,
+    "content_type": 8,
     "codename": "add_allergen"
   }
 },
@@ -707,7 +863,7 @@
   "pk": 30,
   "fields": {
     "name": "Can change allergen",
-    "content_type": 6,
+    "content_type": 8,
     "codename": "change_allergen"
   }
 },
@@ -716,7 +872,7 @@
   "pk": 31,
   "fields": {
     "name": "Can delete allergen",
-    "content_type": 6,
+    "content_type": 8,
     "codename": "delete_allergen"
   }
 },
@@ -725,7 +881,7 @@
   "pk": 32,
   "fields": {
     "name": "Can view allergen",
-    "content_type": 6,
+    "content_type": 8,
     "codename": "view_allergen"
   }
 },
@@ -734,7 +890,7 @@
   "pk": 33,
   "fields": {
     "name": "Can add loyalty program",
-    "content_type": 7,
+    "content_type": 9,
     "codename": "add_loyaltyprogram"
   }
 },
@@ -743,7 +899,7 @@
   "pk": 34,
   "fields": {
     "name": "Can change loyalty program",
-    "content_type": 7,
+    "content_type": 9,
     "codename": "change_loyaltyprogram"
   }
 },
@@ -752,7 +908,7 @@
   "pk": 35,
   "fields": {
     "name": "Can delete loyalty program",
-    "content_type": 7,
+    "content_type": 9,
     "codename": "delete_loyaltyprogram"
   }
 },
@@ -761,7 +917,7 @@
   "pk": 36,
   "fields": {
     "name": "Can view loyalty program",
-    "content_type": 7,
+    "content_type": 9,
     "codename": "view_loyaltyprogram"
   }
 },
@@ -770,7 +926,7 @@
   "pk": 37,
   "fields": {
     "name": "Can add product",
-    "content_type": 12,
+    "content_type": 14,
     "codename": "add_product"
   }
 },
@@ -779,7 +935,7 @@
   "pk": 38,
   "fields": {
     "name": "Can change product",
-    "content_type": 12,
+    "content_type": 14,
     "codename": "change_product"
   }
 },
@@ -788,7 +944,7 @@
   "pk": 39,
   "fields": {
     "name": "Can delete product",
-    "content_type": 12,
+    "content_type": 14,
     "codename": "delete_product"
   }
 },
@@ -797,7 +953,7 @@
   "pk": 40,
   "fields": {
     "name": "Can view product",
-    "content_type": 12,
+    "content_type": 14,
     "codename": "view_product"
   }
 },
@@ -806,7 +962,7 @@
   "pk": 41,
   "fields": {
     "name": "Can add size",
-    "content_type": 15,
+    "content_type": 17,
     "codename": "add_size"
   }
 },
@@ -815,7 +971,7 @@
   "pk": 42,
   "fields": {
     "name": "Can change size",
-    "content_type": 15,
+    "content_type": 17,
     "codename": "change_size"
   }
 },
@@ -824,7 +980,7 @@
   "pk": 43,
   "fields": {
     "name": "Can delete size",
-    "content_type": 15,
+    "content_type": 17,
     "codename": "delete_size"
   }
 },
@@ -833,7 +989,7 @@
   "pk": 44,
   "fields": {
     "name": "Can view size",
-    "content_type": 15,
+    "content_type": 17,
     "codename": "view_size"
   }
 },
@@ -842,7 +998,7 @@
   "pk": 45,
   "fields": {
     "name": "Can add topping",
-    "content_type": 16,
+    "content_type": 18,
     "codename": "add_topping"
   }
 },
@@ -851,7 +1007,7 @@
   "pk": 46,
   "fields": {
     "name": "Can change topping",
-    "content_type": 16,
+    "content_type": 18,
     "codename": "change_topping"
   }
 },
@@ -860,7 +1016,7 @@
   "pk": 47,
   "fields": {
     "name": "Can delete topping",
-    "content_type": 16,
+    "content_type": 18,
     "codename": "delete_topping"
   }
 },
@@ -869,7 +1025,7 @@
   "pk": 48,
   "fields": {
     "name": "Can view topping",
-    "content_type": 16,
+    "content_type": 18,
     "codename": "view_topping"
   }
 },
@@ -878,7 +1034,7 @@
   "pk": 49,
   "fields": {
     "name": "Can add order",
-    "content_type": 8,
+    "content_type": 10,
     "codename": "add_order"
   }
 },
@@ -887,7 +1043,7 @@
   "pk": 50,
   "fields": {
     "name": "Can change order",
-    "content_type": 8,
+    "content_type": 10,
     "codename": "change_order"
   }
 },
@@ -896,7 +1052,7 @@
   "pk": 51,
   "fields": {
     "name": "Can delete order",
-    "content_type": 8,
+    "content_type": 10,
     "codename": "delete_order"
   }
 },
@@ -905,7 +1061,7 @@
   "pk": 52,
   "fields": {
     "name": "Can view order",
-    "content_type": 8,
+    "content_type": 10,
     "codename": "view_order"
   }
 },
@@ -914,7 +1070,7 @@
   "pk": 53,
   "fields": {
     "name": "Can add product size",
-    "content_type": 14,
+    "content_type": 16,
     "codename": "add_productsize"
   }
 },
@@ -923,7 +1079,7 @@
   "pk": 54,
   "fields": {
     "name": "Can change product size",
-    "content_type": 14,
+    "content_type": 16,
     "codename": "change_productsize"
   }
 },
@@ -932,7 +1088,7 @@
   "pk": 55,
   "fields": {
     "name": "Can delete product size",
-    "content_type": 14,
+    "content_type": 16,
     "codename": "delete_productsize"
   }
 },
@@ -941,7 +1097,7 @@
   "pk": 56,
   "fields": {
     "name": "Can view product size",
-    "content_type": 14,
+    "content_type": 16,
     "codename": "view_productsize"
   }
 },
@@ -950,7 +1106,7 @@
   "pk": 57,
   "fields": {
     "name": "Can add order item",
-    "content_type": 9,
+    "content_type": 11,
     "codename": "add_orderitem"
   }
 },
@@ -959,7 +1115,7 @@
   "pk": 58,
   "fields": {
     "name": "Can change order item",
-    "content_type": 9,
+    "content_type": 11,
     "codename": "change_orderitem"
   }
 },
@@ -968,7 +1124,7 @@
   "pk": 59,
   "fields": {
     "name": "Can delete order item",
-    "content_type": 9,
+    "content_type": 11,
     "codename": "delete_orderitem"
   }
 },
@@ -977,7 +1133,7 @@
   "pk": 60,
   "fields": {
     "name": "Can view order item",
-    "content_type": 9,
+    "content_type": 11,
     "codename": "view_orderitem"
   }
 },
@@ -986,7 +1142,7 @@
   "pk": 61,
   "fields": {
     "name": "Can add product allergen",
-    "content_type": 13,
+    "content_type": 15,
     "codename": "add_productallergen"
   }
 },
@@ -995,7 +1151,7 @@
   "pk": 62,
   "fields": {
     "name": "Can change product allergen",
-    "content_type": 13,
+    "content_type": 15,
     "codename": "change_productallergen"
   }
 },
@@ -1004,7 +1160,7 @@
   "pk": 63,
   "fields": {
     "name": "Can delete product allergen",
-    "content_type": 13,
+    "content_type": 15,
     "codename": "delete_productallergen"
   }
 },
@@ -1013,7 +1169,7 @@
   "pk": 64,
   "fields": {
     "name": "Can view product allergen",
-    "content_type": 13,
+    "content_type": 15,
     "codename": "view_productallergen"
   }
 },
@@ -1022,7 +1178,7 @@
   "pk": 65,
   "fields": {
     "name": "Can add pizza topping",
-    "content_type": 11,
+    "content_type": 13,
     "codename": "add_pizzatopping"
   }
 },
@@ -1031,7 +1187,7 @@
   "pk": 66,
   "fields": {
     "name": "Can change pizza topping",
-    "content_type": 11,
+    "content_type": 13,
     "codename": "change_pizzatopping"
   }
 },
@@ -1040,7 +1196,7 @@
   "pk": 67,
   "fields": {
     "name": "Can delete pizza topping",
-    "content_type": 11,
+    "content_type": 13,
     "codename": "delete_pizzatopping"
   }
 },
@@ -1049,7 +1205,7 @@
   "pk": 68,
   "fields": {
     "name": "Can view pizza topping",
-    "content_type": 11,
+    "content_type": 13,
     "codename": "view_pizzatopping"
   }
 },
@@ -1058,7 +1214,7 @@
   "pk": 69,
   "fields": {
     "name": "Can add order item topping",
-    "content_type": 10,
+    "content_type": 12,
     "codename": "add_orderitemtopping"
   }
 },
@@ -1067,7 +1223,7 @@
   "pk": 70,
   "fields": {
     "name": "Can change order item topping",
-    "content_type": 10,
+    "content_type": 12,
     "codename": "change_orderitemtopping"
   }
 },
@@ -1076,7 +1232,7 @@
   "pk": 71,
   "fields": {
     "name": "Can delete order item topping",
-    "content_type": 10,
+    "content_type": 12,
     "codename": "delete_orderitemtopping"
   }
 },
@@ -1085,7 +1241,7 @@
   "pk": 72,
   "fields": {
     "name": "Can view order item topping",
-    "content_type": 10,
+    "content_type": 12,
     "codename": "view_orderitemtopping"
   }
 },
@@ -1094,7 +1250,7 @@
   "pk": 73,
   "fields": {
     "name": "Can add topping allergen",
-    "content_type": 17,
+    "content_type": 19,
     "codename": "add_toppingallergen"
   }
 },
@@ -1103,7 +1259,7 @@
   "pk": 74,
   "fields": {
     "name": "Can change topping allergen",
-    "content_type": 17,
+    "content_type": 19,
     "codename": "change_toppingallergen"
   }
 },
@@ -1112,7 +1268,7 @@
   "pk": 75,
   "fields": {
     "name": "Can delete topping allergen",
-    "content_type": 17,
+    "content_type": 19,
     "codename": "delete_toppingallergen"
   }
 },
@@ -1121,7 +1277,7 @@
   "pk": 76,
   "fields": {
     "name": "Can view topping allergen",
-    "content_type": 17,
+    "content_type": 19,
     "codename": "view_toppingallergen"
   }
 },
@@ -1130,7 +1286,7 @@
   "pk": 77,
   "fields": {
     "name": "Can add topping size price",
-    "content_type": 18,
+    "content_type": 20,
     "codename": "add_toppingsizeprice"
   }
 },
@@ -1139,7 +1295,7 @@
   "pk": 78,
   "fields": {
     "name": "Can change topping size price",
-    "content_type": 18,
+    "content_type": 20,
     "codename": "change_toppingsizeprice"
   }
 },
@@ -1148,7 +1304,7 @@
   "pk": 79,
   "fields": {
     "name": "Can delete topping size price",
-    "content_type": 18,
+    "content_type": 20,
     "codename": "delete_toppingsizeprice"
   }
 },
@@ -1157,7 +1313,7 @@
   "pk": 80,
   "fields": {
     "name": "Can view topping size price",
-    "content_type": 18,
+    "content_type": 20,
     "codename": "view_toppingsizeprice"
   }
 },
@@ -1242,7 +1398,7 @@
   "pk": 6,
   "fields": {
     "app_label": "restaurant",
-    "model": "allergen"
+    "model": "university"
   }
 },
 {
@@ -1250,7 +1406,7 @@
   "pk": 7,
   "fields": {
     "app_label": "restaurant",
-    "model": "loyaltyprogram"
+    "model": "user"
   }
 },
 {
@@ -1258,7 +1414,7 @@
   "pk": 8,
   "fields": {
     "app_label": "restaurant",
-    "model": "order"
+    "model": "allergen"
   }
 },
 {
@@ -1266,7 +1422,7 @@
   "pk": 9,
   "fields": {
     "app_label": "restaurant",
-    "model": "orderitem"
+    "model": "loyaltyprogram"
   }
 },
 {
@@ -1274,7 +1430,7 @@
   "pk": 10,
   "fields": {
     "app_label": "restaurant",
-    "model": "orderitemtopping"
+    "model": "order"
   }
 },
 {
@@ -1282,7 +1438,7 @@
   "pk": 11,
   "fields": {
     "app_label": "restaurant",
-    "model": "pizzatopping"
+    "model": "orderitem"
   }
 },
 {
@@ -1290,7 +1446,7 @@
   "pk": 12,
   "fields": {
     "app_label": "restaurant",
-    "model": "product"
+    "model": "orderitemtopping"
   }
 },
 {
@@ -1298,7 +1454,7 @@
   "pk": 13,
   "fields": {
     "app_label": "restaurant",
-    "model": "productallergen"
+    "model": "pizzatopping"
   }
 },
 {
@@ -1306,7 +1462,7 @@
   "pk": 14,
   "fields": {
     "app_label": "restaurant",
-    "model": "productsize"
+    "model": "product"
   }
 },
 {
@@ -1314,7 +1470,7 @@
   "pk": 15,
   "fields": {
     "app_label": "restaurant",
-    "model": "size"
+    "model": "productallergen"
   }
 },
 {
@@ -1322,7 +1478,7 @@
   "pk": 16,
   "fields": {
     "app_label": "restaurant",
-    "model": "topping"
+    "model": "productsize"
   }
 },
 {
@@ -1330,7 +1486,7 @@
   "pk": 17,
   "fields": {
     "app_label": "restaurant",
-    "model": "toppingallergen"
+    "model": "size"
   }
 },
 {
@@ -1338,7 +1494,7 @@
   "pk": 18,
   "fields": {
     "app_label": "restaurant",
-    "model": "toppingsizeprice"
+    "model": "topping"
   }
 },
 {
@@ -1346,7 +1502,7 @@
   "pk": 19,
   "fields": {
     "app_label": "restaurant",
-    "model": "university"
+    "model": "toppingallergen"
   }
 },
 {
@@ -1354,7 +1510,7 @@
   "pk": 20,
   "fields": {
     "app_label": "restaurant",
-    "model": "user"
+    "model": "toppingsizeprice"
   }
 },
 {
@@ -1367,6 +1523,14 @@
 },
 {
   "model": "sessions.session",
+  "pk": "7ph3poe869y4v00os8py8lg1s39t7v80",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hBomRZcuvcMZGYYpGpoUtqV8e7apAvd_vfef6mI21ri1mSJU1Jn5dTpdyPkh9QdpDvW26x5rusykd4VfdCmr3OS5-Vw_w4KtvKthbMPzMn2RIRoe8iBuDPeEVAaeIQQsrPQjU7E5AGRvTj0wIbYIaj3Bxt6OR0:1wUmfj:CJ3soecGzvUOF1gAE33dS4__xzdGb2HdebIst5r10jo",
+    "expire_date": "2026-06-17T14:34:19.864Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "a3nw5wpeddb24ncgby4mdlqcd4hm2560",
   "fields": {
     "session_data": ".eJxVjMsOwiAURP-FtSFwb-Xh0r3fQIALUjWQlHZl_HdL0oWuJplzZt7M-W0tbutpcTOxC5Ps9NsFH5-pDkAPX--Nx1bXZQ58KPygnd8apdf1cP8Oiu9lrFHghKSmhKhQ2BBAg7YACgAtGYhZWx_IhiRl3L28p5Amng16yol9vrjHN2w:1wLjW7:nRLI768JkEWE-JOm5Y2z9gxNgV_sC2EFZjDLPmNlXf8",
@@ -1375,34 +1539,10 @@
 },
 {
   "model": "sessions.session",
-  "pk": "e3d8qbykqagxz0tdiot5icwkcjttssq3",
+  "pk": "gkqcgzd6gz8ash5gqyv71g45spq9bgj3",
   "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-rT-U9JzBWq9tHECOFCcV4u4QKQW0b2bei0Xc1ha3UZY4ZXZmip1-t4T0KH0H-Y79NnOa-7pMie8KP-jg1zmX5-Vw_w4ajvatE6AErMIbSoLAS6lIV2FrCqRysNYFiwAGnQzGk5FOWdA-e03BajDs_QHT7zbA:1wOL82:17Ncxv6iAP4qm-7ueJ8yhDvVwQyesG0CoIorOyD5R3A",
-    "expire_date": "2026-05-30T19:56:54.846Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "gljlpyjncbwrkhksqms7wq6c5fd0ko56",
-  "fields": {
-    "session_data": ".eJxVjMsOwiAURP-FtSFwb-Xh0r3fQIALUjWQlHZl_HdL0oWuJplzZt7M-W0tbutpcTOxC5Ps9NsFH5-pDkAPX--Nx1bXZQ58KPygnd8apdf1cP8Oiu9lrFHghKSmhKhQ2BBAg7YACgAtGYhZWx_IhiRl3L28p5Amng16yol9vrjHN2w:1wUN61:ybWgD27xsJOeyAflcXAqrEqN6gMHBwItUD9Zawi4UII",
-    "expire_date": "2026-06-16T11:15:45.310Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "gzfyehutc6rdl2632xz4tmlqkgzfjv92",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGlnrT6I1JT1niPZjkwCKpTipEHeHSCmgfTPzXmagbR2HreVlmNScTTSn341JHnnegd5pvlUrdV6Xie2u2IM2e62an5fD_TsYqY3fmpQg9cVpSRgheueDEBcXEAhRiZm95j4FQYqACj5Rx31X0IEIsHl_APSlOEk:1wUls1:V8Comuza5NbsZ5I5IxM4xxgkY2nITK9FI3OGJTiQ5PY",
-    "expire_date": "2026-06-17T13:42:57.957Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "wqsw42ksso6m0ew65rj8yaptyzkua2r1",
-  "fields": {
-    "session_data": ".eJxVjMsOwiAURP-FtSFwb-Xh0r3fQIALUjWQlHZl_HdL0oWuJplzZt7M-W0tbutpcTOxC5Ps9NsFH5-pDkAPX--Nx1bXZQ58KPygnd8apdf1cP8Oiu9lrFHghKSmhKhQ2BBAg7YACgAtGYhZWx_IhiRl3L28p5Amng16yol9vrjHN2w:1wOKLM:wPtHTX83_fWf83KBDap8ubAaMnpMJtYC7-r5ZLbd6m4",
-    "expire_date": "2026-05-30T19:06:36.667Z"
+    "session_data": ".eJxVjMsOwiAURP-FtSFwb-Xh0r3fQIALUjWQlHZl_HdL0oWuJplzZt7M-W0tbutpcTOxC5Ps9NsFH5-pDkAPX--Nx1bXZQ58KPygnd8apdf1cP8Oiu9lrFHghKSmhKhQ2BBAg7YACgAtGYhZWx_IhiRl3L28p5Amng16yol9vrjHN2w:1wUqf5:ZvT3_1EofX4plTCXtkdfJdJRAN2V8pSN0Y7xswE7Mr4",
+    "expire_date": "2026-06-17T18:49:55.505Z"
   }
 },
 {
@@ -1446,7 +1586,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$1200000$bYlNJcdcLcIRJcgYoM5utt$u0rdDhqFvbTCB57eyf9PoQJeX0vrcnZW8rwk6PsgMdQ=",
-    "last_login": "2026-06-02T11:15:45.309Z",
+    "last_login": "2026-06-03T18:49:55.505Z",
     "is_superuser": true,
     "username": "admin",
     "first_name": "",
@@ -1466,16 +1606,16 @@
   "model": "restaurant.user",
   "pk": 2,
   "fields": {
-    "password": "pbkdf2_sha256$1200000$VKncyuoFSfHLyKREy4oJIc$NZnCFqs6q+K0w6mQr2mAB1ZpDHZeSG0F5Bq1B4geMO4=",
-    "last_login": "2026-05-16T19:56:54.841Z",
+    "password": "pbkdf2_sha256$1200000$Byltxw1FSL6J8XNh0tjXoQ$mn8tgMKtZH5WpkLAdHm5XkemMn5XKgjMWTYQnxANz1c=",
+    "last_login": "2026-05-27T10:03:48Z",
     "is_superuser": false,
-    "username": "Jack_Best",
-    "first_name": "Jack",
-    "last_name": "Johhanson",
-    "email": "jack.joh@bi.no",
+    "username": "hat",
+    "first_name": "ma",
+    "last_name": "hjd",
+    "email": "hduiaqwhd@bi.no",
     "is_staff": false,
-    "is_active": true,
-    "date_joined": "2026-05-16T19:39:07.677Z",
+    "is_active": false,
+    "date_joined": "2026-05-27T10:03:48Z",
     "role": "customer",
     "is_verified_student": true,
     "university": 1,
@@ -1487,18 +1627,18 @@
   "model": "restaurant.user",
   "pk": 3,
   "fields": {
-    "password": "pbkdf2_sha256$1200000$S2sImdlhCEQIPto4FTCrgy$DaxcPrQPQlKeuNRUs7seufvFsNuA1CAjQwjuInkzCeY=",
-    "last_login": "2026-06-02T10:51:55.035Z",
+    "password": "pbkdf2_sha256$1200000$UJwYQbxxC9a5oniJFUxdsQ$roWfYJeoc8NgGjeA/7INZsf1bsE5EycecXu0pgVrK1s=",
+    "last_login": "2026-06-03T14:32:10.931Z",
     "is_superuser": false,
-    "username": "dario",
-    "first_name": "Dario",
-    "last_name": "Gianelli",
-    "email": "dario@gmail.com",
+    "username": "dan",
+    "first_name": "Daniel",
+    "last_name": "Jhons",
+    "email": "dan88@bi.no",
     "is_staff": false,
     "is_active": true,
-    "date_joined": "2026-06-02T10:51:54.719Z",
+    "date_joined": "2026-06-01T15:14:16.288Z",
     "role": "customer",
-    "is_verified_student": false,
+    "is_verified_student": true,
     "university": 1,
     "groups": [],
     "user_permissions": []
@@ -1508,19 +1648,61 @@
   "model": "restaurant.user",
   "pk": 4,
   "fields": {
-    "password": "pbkdf2_sha256$1200000$lagbcSSo6P3TeBU2g6wwjR$cSGLMfqcD/Pkhb567Nb7K6RK5CuXQseePwUQ27LMhiM=",
-    "last_login": "2026-06-03T13:42:57.956Z",
+    "password": "pbkdf2_sha256$1200000$Ue09039WXhImDtdHdm3nkW$r1SWo1Ov+gIrLfzUA2DXDalRphbqHwqgSfc1Jf9lOk8=",
+    "last_login": "2026-06-03T14:34:19.864Z",
     "is_superuser": false,
-    "username": "mike",
-    "first_name": "Mike",
-    "last_name": "Johns",
-    "email": "mike90@uio.no",
+    "username": "Jonny",
+    "first_name": "Jonny",
+    "last_name": "Brant",
+    "email": "jonny@gmail.com",
     "is_staff": false,
     "is_active": true,
-    "date_joined": "2026-06-03T13:42:57.614Z",
+    "date_joined": "2026-06-03T14:34:19.570Z",
+    "role": "customer",
+    "is_verified_student": false,
+    "university": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "restaurant.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$l30h2bTlHpFuoFAbJrjulR$j1BpJq+/vj6/A1dd9Dt+MqwWTNzmd3B2Q5bmfMPowpQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "student_user",
+    "first_name": "",
+    "last_name": "",
+    "email": "student@bi.no",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-03T18:52:23Z",
     "role": "customer",
     "is_verified_student": true,
-    "university": 2,
+    "university": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "restaurant.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$rK8lHuXPETRA3uid89XHKt$9RgX/IGyGsNUnOQ6uuAB+cOQxXl5ytcSUFkHijwpBtE=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "guest_user",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-03T18:54:21Z",
+    "role": "customer",
+    "is_verified_student": false,
+    "university": null,
     "groups": [],
     "user_permissions": []
   }
@@ -2417,27 +2599,17 @@
   "model": "restaurant.loyaltyprogram",
   "pk": 1,
   "fields": {
-    "name": "Pizza Stamp Card",
+    "name": "Pizza Stamp Card - 9th pizza is free",
     "program_type": "pizza_only",
     "stamps_required": 8,
     "discount_pct": "100.00"
   }
 },
 {
-  "model": "restaurant.loyaltyprogram",
-  "pk": 2,
-  "fields": {
-    "name": "Combo Stamp Card",
-    "program_type": "pizza_and_drink",
-    "stamps_required": 8,
-    "discount_pct": "100.00"
-  }
-},
-{
   "model": "restaurant.userloyalty",
   "pk": 1,
   "fields": {
-    "user": 3,
+    "user": 1,
     "program": 1,
     "stamp_count": 1
   }
@@ -2446,20 +2618,20 @@
   "model": "restaurant.userloyalty",
   "pk": 2,
   "fields": {
-    "user": 4,
+    "user": 3,
     "program": 1,
-    "stamp_count": 1
+    "stamp_count": 3
   }
 },
 {
   "model": "restaurant.order",
   "pk": 1,
   "fields": {
-    "user": 3,
+    "user": 1,
     "loyalty_program": null,
-    "status": "completed",
-    "order_date": "2026-06-02T10:52:05.277Z",
-    "total_price": "189.00",
+    "status": "ordered",
+    "order_date": "2026-06-01T14:27:51.119Z",
+    "total_price": "682.00",
     "discount_applied": "0.00",
     "loyalty_counted": true
   }
@@ -2468,61 +2640,129 @@
   "model": "restaurant.order",
   "pk": 2,
   "fields": {
-    "user": 4,
+    "user": 3,
     "loyalty_program": null,
     "status": "ordered",
-    "order_date": "2026-06-03T13:43:10.931Z",
-    "total_price": "273.60",
-    "discount_applied": "30.40",
+    "order_date": "2026-06-01T15:14:24.004Z",
+    "total_price": "174.60",
+    "discount_applied": "19.40",
     "loyalty_counted": true
   }
 },
 {
-  "model": "restaurant.orderitem",
-  "pk": 1,
-  "fields": {
-    "order": 1,
-    "product_size": 4,
-    "quantity": 1,
-    "item_total_price": "189.00"
-  }
-},
-{
-  "model": "restaurant.orderitem",
-  "pk": 2,
-  "fields": {
-    "order": 2,
-    "product_size": 5,
-    "quantity": 1,
-    "item_total_price": "239.00"
-  }
-},
-{
-  "model": "restaurant.orderitem",
+  "model": "restaurant.order",
   "pk": 3,
   "fields": {
-    "order": 2,
-    "product_size": 26,
+    "user": 3,
+    "loyalty_program": null,
+    "status": "ordered",
+    "order_date": "2026-06-01T15:27:42.032Z",
+    "total_price": "143.10",
+    "discount_applied": "15.90",
+    "loyalty_counted": true
+  }
+},
+{
+  "model": "restaurant.order",
+  "pk": 4,
+  "fields": {
+    "user": 3,
+    "loyalty_program": null,
+    "status": "ordered",
+    "order_date": "2026-06-01T15:34:00.658Z",
+    "total_price": "187.20",
+    "discount_applied": "20.80",
+    "loyalty_counted": true
+  }
+},
+{
+  "model": "restaurant.order",
+  "pk": 5,
+  "fields": {
+    "user": 1,
+    "loyalty_program": null,
+    "status": "in_basket",
+    "order_date": "2026-06-03T13:26:47.396Z",
+    "total_price": "0.00",
+    "discount_applied": "0.00",
+    "loyalty_counted": false
+  }
+},
+{
+  "model": "restaurant.orderitem",
+  "pk": 4,
+  "fields": {
+    "order": 1,
+    "product_size": 1,
     "quantity": 1,
-    "item_total_price": "65.00"
+    "item_total_price": "204.00"
+  }
+},
+{
+  "model": "restaurant.orderitem",
+  "pk": 5,
+  "fields": {
+    "order": 2,
+    "product_size": 4,
+    "quantity": 1,
+    "item_total_price": "194.00"
+  }
+},
+{
+  "model": "restaurant.orderitem",
+  "pk": 8,
+  "fields": {
+    "order": 3,
+    "product_size": 7,
+    "quantity": 1,
+    "item_total_price": "159.00"
+  }
+},
+{
+  "model": "restaurant.orderitem",
+  "pk": 9,
+  "fields": {
+    "order": 4,
+    "product_size": 1,
+    "quantity": 1,
+    "item_total_price": "159.00"
+  }
+},
+{
+  "model": "restaurant.orderitem",
+  "pk": 10,
+  "fields": {
+    "order": 4,
+    "product_size": 25,
+    "quantity": 1,
+    "item_total_price": "49.00"
   }
 },
 {
   "model": "restaurant.orderitemtopping",
-  "pk": 1,
+  "pk": 3,
   "fields": {
-    "order_item": 1,
-    "topping": 3,
+    "order_item": 4,
+    "topping": 1,
+    "topping_price": "25.00"
+  }
+},
+{
+  "model": "restaurant.orderitemtopping",
+  "pk": 4,
+  "fields": {
+    "order_item": 4,
+    "topping": 4,
     "topping_price": "20.00"
   }
 },
 {
   "model": "restaurant.orderitemtopping",
-  "pk": 2,
+  "pk": 5,
   "fields": {
-    "order_item": 2,
-    "topping": 3,
-    "topping_price": "30.00"
+    "order_item": 5,
+    "topping": 1,
+    "topping_price": "25.00"
   }
 }
 ]
