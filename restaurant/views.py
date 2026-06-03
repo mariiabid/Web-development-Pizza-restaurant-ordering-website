@@ -3,7 +3,7 @@ from django.contrib import messages
 from django.contrib.auth import login
 from django.contrib.auth.decorators import login_required
 from django.contrib.admin.views.decorators import staff_member_required
-from .models import Product, ProductSize, Topping, PizzaTopping, ToppingSizePrice, Order, OrderItem, OrderItemTopping
+from .models import Product, ProductSize, Topping, PizzaTopping, ToppingSizePrice, Order, OrderItem, OrderItemTopping, LoyaltyProgram, UserLoyalty
 from .forms import RegisterForm
 
 # Create your views here.
@@ -138,6 +138,11 @@ def checkout(request):
 
     total = subtotal - discount
 
+    loyalty_info = None
+    program = LoyaltyProgram.objects.first()
+    if program:
+        loyalty_info, _ = UserLoyalty.objects.get_or_create(user=request.user, program=program)
+
     if request.method == 'POST':
         order.status = 'ordered'
         order.total_price = total
@@ -145,20 +150,16 @@ def checkout(request):
         order.save()
 
         has_pizza = any(item.product_size.product.product_type == 'pizza' for item in items)
-        if has_pizza:
-            from .models import LoyaltyProgram, UserLoyalty
-            try:
-                program = LoyaltyProgram.objects.first()
-                if program:
-                    user_loyalty, _ = UserLoyalty.objects.get_or_create(
-                        user=request.user, program=program
-                    )
-                    user_loyalty.stamp_count += 1
-                    user_loyalty.save()
-                    order.loyalty_counted = True
-                    order.save()
-            except Exception:
-                pass
+        if has_pizza and loyalty_info:
+            loyalty_info.stamp_count += 1
+            loyalty_info.save()
+            order.loyalty_counted = True
+            order.save()
+
+            if loyalty_info.stamp_count >= program.stamps_required:
+                loyalty_info.stamp_count = 0  # reset
+                loyalty_info.save()
+                messages.success(request, '🎉 You earned a free pizza! It will be applied to your next order.')
 
         messages.success(request, 'Your order has been placed successfully!')
         return redirect('order_history')
@@ -169,6 +170,7 @@ def checkout(request):
         'subtotal': subtotal,
         'discount': discount,
         'total': total,
+        'loyalty_info': loyalty_info,
     }
     return render(request, 'restaurant/checkout.html', context)
 

@@ -46,6 +46,13 @@
                         <td colspan="2">Total</td>
                         <td class="text-end">{{ order.total_price }} NOK</td>
                     </tr>
+                    {% if loyalty_info %}
+                    <tr>
+                        <td colspan="2">
+                            <p>🍕 Loyalty stamps: {{ loyalty_info.stamp_count }} / {{ loyalty_info.program.stamps_required }}</p>
+                        </td>
+                    </tr>
+                    {% endif %}
                 </tfoot>
             </table>
         </div>
