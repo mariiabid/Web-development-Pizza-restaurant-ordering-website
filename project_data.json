@@ -598,6 +598,19 @@
     }
 },
 {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2026-06-03T23:10:20.192Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "3",
+        "object_repr": "Vegetariana",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
     "model": "auth.permission",
     "pk": 1,
     "fields": {
@@ -1523,10 +1536,10 @@
 },
 {
     "model": "sessions.session",
-    "pk": "5c616bfpgwvnculdoxsla9kx4fgp7yf3",
+    "pk": "2xhkn9tj8ccj9n98ebi26h2r5z2zbpww",
     "fields": {
-        "session_data": ".eJxVjDsOwjAQBe_iGlmOvzElPWew1t5dHECOFCcV4u4QKQW0b2beSyTY1pq2TkuaUJyFF6ffLUN5UNsB3qHdZlnmti5TlrsiD9rldUZ6Xg7376BCr9868gjGYwxgYilBsx6itdEpdiMSomOtvOIhq8KKDVvCmIOHQuSNIS_eH-1wOH0:1wUrqb:NoZpCZwI8i10DN86CxElgUjfEGjt6gNC1awSBvUhpww",
-        "expire_date": "2026-06-17T20:05:53.833Z"
+        "session_data": ".eJxVjMsOwiAURP-FtSFwb-Xh0r3fQIALUjWQlHZl_HdL0oWuJplzZt7M-W0tbutpcTOxC5Ps9NsFH5-pDkAPX--Nx1bXZQ58KPygnd8apdf1cP8Oiu9lrFHghKSmhKhQ2BBAg7YACgAtGYhZWx_IhiRl3L28p5Amng16yol9vrjHN2w:1wUuxp:B0oFpPGw-gD-tfiRryMfe-By80mO3MZ6speyEJoj7fk",
+        "expire_date": "2026-06-17T23:25:33.326Z"
     }
 },
 {
@@ -1586,7 +1599,7 @@
     "pk": 1,
     "fields": {
         "password": "pbkdf2_sha256$1200000$bYlNJcdcLcIRJcgYoM5utt$u0rdDhqFvbTCB57eyf9PoQJeX0vrcnZW8rwk6PsgMdQ=",
-        "last_login": "2026-06-03T18:49:55.505Z",
+        "last_login": "2026-06-03T23:25:33.325Z",
         "is_superuser": true,
         "username": "admin",
         "first_name": "",
@@ -1670,7 +1683,7 @@
     "pk": 5,
     "fields": {
         "password": "pbkdf2_sha256$1200000$l30h2bTlHpFuoFAbJrjulR$j1BpJq+/vj6/A1dd9Dt+MqwWTNzmd3B2Q5bmfMPowpQ=",
-        "last_login": null,
+        "last_login": "2026-06-03T23:22:47.566Z",
         "is_superuser": false,
         "username": "student_user",
         "first_name": "",
@@ -1703,6 +1716,69 @@
         "role": "customer",
         "is_verified_student": false,
         "university": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "restaurant.user",
+    "pk": 7,
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$YcxmMLwjVpkOC3yVH0fduk$6+Zdw4wYHoP5YYONNtryOlcmSYy5WhBkNJ4PncaTB6s=",
+        "last_login": "2026-06-03T22:14:44.313Z",
+        "is_superuser": false,
+        "username": "dam",
+        "first_name": "Damian",
+        "last_name": "Johns",
+        "email": "dam@bi.no",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-06-03T22:14:43.998Z",
+        "role": "customer",
+        "is_verified_student": true,
+        "university": 1,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "restaurant.user",
+    "pk": 8,
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$9kB8HRNDrTTwxRQxjfl5qb$ecVvVTmIpxhFT6BNH1vaeTK6ktFEd5Yq9nO4pTz+5es=",
+        "last_login": "2026-06-03T23:06:15.496Z",
+        "is_superuser": false,
+        "username": "Jhon",
+        "first_name": "Jhon",
+        "last_name": "Maken",
+        "email": "jhon@uio.no",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-06-03T23:06:15.181Z",
+        "role": "customer",
+        "is_verified_student": true,
+        "university": 2,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "restaurant.user",
+    "pk": 9,
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$NRpfDwl5naM8wAOHN59HFC$LrINBPBqwz1szGLH+omrYCuhM7s7k0E/JFcglwIKqyc=",
+        "last_login": "2026-06-03T23:21:58.329Z",
+        "is_superuser": false,
+        "username": "dall",
+        "first_name": "Daniel",
+        "last_name": "Haron",
+        "email": "dan@uio.no",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-06-03T23:21:58.036Z",
+        "role": "customer",
+        "is_verified_student": false,
+        "university": 3,
         "groups": [],
         "user_permissions": []
     }
@@ -2624,6 +2700,24 @@
     }
 },
 {
+    "model": "restaurant.userloyalty",
+    "pk": 3,
+    "fields": {
+        "user": 7,
+        "program": 1,
+        "stamp_count": 1
+    }
+},
+{
+    "model": "restaurant.userloyalty",
+    "pk": 4,
+    "fields": {
+        "user": 5,
+        "program": 1,
+        "stamp_count": 0
+    }
+},
+{
     "model": "restaurant.order",
     "pk": 1,
     "fields": {
@@ -2702,6 +2796,383 @@
     }
 },
 {
+    "model": "restaurant.order",
+    "pk": 7,
+    "fields": {
+        "user": 7,
+        "loyalty_program": null,
+        "status": "completed",
+        "order_date": "2026-06-03T22:15:43.235Z",
+        "total_price": "263.70",
+        "discount_applied": "29.30",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 8,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "completed",
+        "order_date": "2026-06-03T22:22:55.012Z",
+        "total_price": "183.60",
+        "discount_applied": "20.40",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 9,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "completed",
+        "order_date": "2026-06-03T22:23:06.112Z",
+        "total_price": "143.10",
+        "discount_applied": "15.90",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 10,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "completed",
+        "order_date": "2026-06-03T22:23:15.896Z",
+        "total_price": "210.60",
+        "discount_applied": "23.40",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 11,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "completed",
+        "order_date": "2026-06-03T22:23:27.098Z",
+        "total_price": "179.10",
+        "discount_applied": "19.90",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 12,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "completed",
+        "order_date": "2026-06-03T22:23:35.644Z",
+        "total_price": "260.10",
+        "discount_applied": "28.90",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 13,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "completed",
+        "order_date": "2026-06-03T22:23:49.912Z",
+        "total_price": "348.30",
+        "discount_applied": "38.70",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 14,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "completed",
+        "order_date": "2026-06-03T22:24:22.562Z",
+        "total_price": "290.70",
+        "discount_applied": "32.30",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 15,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "completed",
+        "order_date": "2026-06-03T22:24:42.497Z",
+        "total_price": "206.10",
+        "discount_applied": "22.90",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 16,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "completed",
+        "order_date": "2026-06-03T22:26:25.796Z",
+        "total_price": "425.70",
+        "discount_applied": "47.30",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 17,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "preparing",
+        "order_date": "2026-06-03T22:27:54.346Z",
+        "total_price": "359.10",
+        "discount_applied": "39.90",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 18,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "ordered",
+        "order_date": "2026-06-03T22:43:27.596Z",
+        "total_price": "183.60",
+        "discount_applied": "20.40",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 19,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "ordered",
+        "order_date": "2026-06-03T22:43:50.583Z",
+        "total_price": "161.10",
+        "discount_applied": "17.90",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 20,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "ordered",
+        "order_date": "2026-06-03T22:48:00.770Z",
+        "total_price": "335.70",
+        "discount_applied": "37.30",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 21,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "ordered",
+        "order_date": "2026-06-03T22:52:08.665Z",
+        "total_price": "318.60",
+        "discount_applied": "35.40",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 22,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "ordered",
+        "order_date": "2026-06-03T22:52:31.432Z",
+        "total_price": "161.10",
+        "discount_applied": "17.90",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 23,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "ordered",
+        "order_date": "2026-06-03T22:52:39.582Z",
+        "total_price": "161.10",
+        "discount_applied": "17.90",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 24,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "ordered",
+        "order_date": "2026-06-03T22:52:49.464Z",
+        "total_price": "210.60",
+        "discount_applied": "23.40",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 25,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "ordered",
+        "order_date": "2026-06-03T22:52:57.531Z",
+        "total_price": "170.10",
+        "discount_applied": "18.90",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 26,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "ordered",
+        "order_date": "2026-06-03T22:53:05.882Z",
+        "total_price": "179.10",
+        "discount_applied": "19.90",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 27,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "preparing",
+        "order_date": "2026-06-03T22:53:16.365Z",
+        "total_price": "263.70",
+        "discount_applied": "29.30",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 28,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "ordered",
+        "order_date": "2026-06-03T23:14:22.818Z",
+        "total_price": "161.10",
+        "discount_applied": "17.90",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 29,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "ordered",
+        "order_date": "2026-06-03T23:14:29.069Z",
+        "total_price": "340.20",
+        "discount_applied": "37.80",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 30,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "ordered",
+        "order_date": "2026-06-03T23:14:43.351Z",
+        "total_price": "273.60",
+        "discount_applied": "30.40",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 31,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "ordered",
+        "order_date": "2026-06-03T23:14:53.248Z",
+        "total_price": "232.20",
+        "discount_applied": "25.80",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 32,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "ordered",
+        "order_date": "2026-06-03T23:15:08.168Z",
+        "total_price": "224.10",
+        "discount_applied": "24.90",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 33,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "ordered",
+        "order_date": "2026-06-03T23:15:15.584Z",
+        "total_price": "304.20",
+        "discount_applied": "33.80",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 34,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "ordered",
+        "order_date": "2026-06-03T23:15:30.085Z",
+        "total_price": "260.10",
+        "discount_applied": "28.90",
+        "loyalty_counted": true
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 35,
+    "fields": {
+        "user": 5,
+        "loyalty_program": null,
+        "status": "preparing",
+        "order_date": "2026-06-03T23:15:42.317Z",
+        "total_price": "210.60",
+        "discount_applied": "23.40",
+        "loyalty_counted": true
+    }
+},
+{
     "model": "restaurant.orderitem",
     "pk": 4,
     "fields": {
@@ -2752,6 +3223,426 @@
     }
 },
 {
+    "model": "restaurant.orderitem",
+    "pk": 13,
+    "fields": {
+        "order": 7,
+        "product_size": 2,
+        "quantity": 1,
+        "item_total_price": "234.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 14,
+    "fields": {
+        "order": 7,
+        "product_size": 20,
+        "quantity": 1,
+        "item_total_price": "59.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 15,
+    "fields": {
+        "order": 8,
+        "product_size": 4,
+        "quantity": 1,
+        "item_total_price": "204.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 16,
+    "fields": {
+        "order": 9,
+        "product_size": 1,
+        "quantity": 1,
+        "item_total_price": "159.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 17,
+    "fields": {
+        "order": 10,
+        "product_size": 10,
+        "quantity": 1,
+        "item_total_price": "199.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 18,
+    "fields": {
+        "order": 10,
+        "product_size": 22,
+        "quantity": 1,
+        "item_total_price": "35.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 19,
+    "fields": {
+        "order": 11,
+        "product_size": 1,
+        "quantity": 1,
+        "item_total_price": "199.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 20,
+    "fields": {
+        "order": 12,
+        "product_size": 9,
+        "quantity": 1,
+        "item_total_price": "289.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 21,
+    "fields": {
+        "order": 13,
+        "product_size": 15,
+        "quantity": 1,
+        "item_total_price": "249.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 22,
+    "fields": {
+        "order": 13,
+        "product_size": 17,
+        "quantity": 1,
+        "item_total_price": "59.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 23,
+    "fields": {
+        "order": 13,
+        "product_size": 21,
+        "quantity": 1,
+        "item_total_price": "79.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 24,
+    "fields": {
+        "order": 14,
+        "product_size": 5,
+        "quantity": 1,
+        "item_total_price": "274.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 25,
+    "fields": {
+        "order": 14,
+        "product_size": 25,
+        "quantity": 1,
+        "item_total_price": "49.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 26,
+    "fields": {
+        "order": 15,
+        "product_size": 8,
+        "quantity": 1,
+        "item_total_price": "229.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 27,
+    "fields": {
+        "order": 16,
+        "product_size": 7,
+        "quantity": 1,
+        "item_total_price": "184.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 28,
+    "fields": {
+        "order": 16,
+        "product_size": 5,
+        "quantity": 1,
+        "item_total_price": "289.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 29,
+    "fields": {
+        "order": 17,
+        "product_size": 3,
+        "quantity": 1,
+        "item_total_price": "334.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 30,
+    "fields": {
+        "order": 17,
+        "product_size": 24,
+        "quantity": 1,
+        "item_total_price": "65.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 31,
+    "fields": {
+        "order": 18,
+        "product_size": 4,
+        "quantity": 1,
+        "item_total_price": "204.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 32,
+    "fields": {
+        "order": 19,
+        "product_size": 1,
+        "quantity": 1,
+        "item_total_price": "179.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 33,
+    "fields": {
+        "order": 20,
+        "product_size": 1,
+        "quantity": 1,
+        "item_total_price": "184.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 34,
+    "fields": {
+        "order": 20,
+        "product_size": 4,
+        "quantity": 1,
+        "item_total_price": "189.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 35,
+    "fields": {
+        "order": 21,
+        "product_size": 12,
+        "quantity": 1,
+        "item_total_price": "309.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 36,
+    "fields": {
+        "order": 21,
+        "product_size": 16,
+        "quantity": 1,
+        "item_total_price": "45.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 37,
+    "fields": {
+        "order": 22,
+        "product_size": 13,
+        "quantity": 1,
+        "item_total_price": "179.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 38,
+    "fields": {
+        "order": 23,
+        "product_size": 7,
+        "quantity": 1,
+        "item_total_price": "179.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 39,
+    "fields": {
+        "order": 24,
+        "product_size": 10,
+        "quantity": 1,
+        "item_total_price": "234.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 40,
+    "fields": {
+        "order": 25,
+        "product_size": 4,
+        "quantity": 1,
+        "item_total_price": "189.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 41,
+    "fields": {
+        "order": 26,
+        "product_size": 13,
+        "quantity": 1,
+        "item_total_price": "199.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 43,
+    "fields": {
+        "order": 27,
+        "product_size": 2,
+        "quantity": 1,
+        "item_total_price": "234.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 44,
+    "fields": {
+        "order": 27,
+        "product_size": 20,
+        "quantity": 1,
+        "item_total_price": "59.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 45,
+    "fields": {
+        "order": 28,
+        "product_size": 1,
+        "quantity": 1,
+        "item_total_price": "179.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 46,
+    "fields": {
+        "order": 29,
+        "product_size": 4,
+        "quantity": 1,
+        "item_total_price": "189.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 47,
+    "fields": {
+        "order": 29,
+        "product_size": 4,
+        "quantity": 1,
+        "item_total_price": "189.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 48,
+    "fields": {
+        "order": 30,
+        "product_size": 6,
+        "quantity": 1,
+        "item_total_price": "304.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 49,
+    "fields": {
+        "order": 31,
+        "product_size": 21,
+        "quantity": 1,
+        "item_total_price": "79.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 50,
+    "fields": {
+        "order": 31,
+        "product_size": 13,
+        "quantity": 1,
+        "item_total_price": "179.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 51,
+    "fields": {
+        "order": 32,
+        "product_size": 9,
+        "quantity": 1,
+        "item_total_price": "249.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 52,
+    "fields": {
+        "order": 33,
+        "product_size": 10,
+        "quantity": 1,
+        "item_total_price": "259.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 53,
+    "fields": {
+        "order": 33,
+        "product_size": 21,
+        "quantity": 1,
+        "item_total_price": "79.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 54,
+    "fields": {
+        "order": 34,
+        "product_size": 3,
+        "quantity": 1,
+        "item_total_price": "289.00"
+    }
+},
+{
+    "model": "restaurant.orderitem",
+    "pk": 56,
+    "fields": {
+        "order": 35,
+        "product_size": 2,
+        "quantity": 1,
+        "item_total_price": "234.00"
+    }
+},
+{
     "model": "restaurant.orderitemtopping",
     "pk": 3,
     "fields": {
@@ -2776,6 +3667,339 @@
         "order_item": 5,
         "topping": 1,
         "topping_price": "25.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 8,
+    "fields": {
+        "order_item": 13,
+        "topping": 1,
+        "topping_price": "35.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 9,
+    "fields": {
+        "order_item": 15,
+        "topping": 2,
+        "topping_price": "35.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 10,
+    "fields": {
+        "order_item": 17,
+        "topping": 4,
+        "topping_price": "20.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 11,
+    "fields": {
+        "order_item": 19,
+        "topping": 3,
+        "topping_price": "20.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 12,
+    "fields": {
+        "order_item": 19,
+        "topping": 4,
+        "topping_price": "20.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 13,
+    "fields": {
+        "order_item": 20,
+        "topping": 5,
+        "topping_price": "40.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 14,
+    "fields": {
+        "order_item": 24,
+        "topping": 1,
+        "topping_price": "35.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 15,
+    "fields": {
+        "order_item": 24,
+        "topping": 3,
+        "topping_price": "30.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 16,
+    "fields": {
+        "order_item": 26,
+        "topping": 5,
+        "topping_price": "30.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 17,
+    "fields": {
+        "order_item": 27,
+        "topping": 1,
+        "topping_price": "25.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 18,
+    "fields": {
+        "order_item": 28,
+        "topping": 1,
+        "topping_price": "35.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 19,
+    "fields": {
+        "order_item": 28,
+        "topping": 2,
+        "topping_price": "45.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 20,
+    "fields": {
+        "order_item": 29,
+        "topping": 1,
+        "topping_price": "45.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 21,
+    "fields": {
+        "order_item": 29,
+        "topping": 3,
+        "topping_price": "40.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 22,
+    "fields": {
+        "order_item": 31,
+        "topping": 2,
+        "topping_price": "35.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 23,
+    "fields": {
+        "order_item": 32,
+        "topping": 4,
+        "topping_price": "20.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 24,
+    "fields": {
+        "order_item": 33,
+        "topping": 1,
+        "topping_price": "25.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 25,
+    "fields": {
+        "order_item": 34,
+        "topping": 3,
+        "topping_price": "20.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 26,
+    "fields": {
+        "order_item": 35,
+        "topping": 5,
+        "topping_price": "40.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 27,
+    "fields": {
+        "order_item": 37,
+        "topping": 3,
+        "topping_price": "20.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 28,
+    "fields": {
+        "order_item": 38,
+        "topping": 4,
+        "topping_price": "20.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 29,
+    "fields": {
+        "order_item": 39,
+        "topping": 5,
+        "topping_price": "20.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 30,
+    "fields": {
+        "order_item": 39,
+        "topping": 6,
+        "topping_price": "35.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 31,
+    "fields": {
+        "order_item": 40,
+        "topping": 5,
+        "topping_price": "20.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 32,
+    "fields": {
+        "order_item": 41,
+        "topping": 3,
+        "topping_price": "20.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 33,
+    "fields": {
+        "order_item": 41,
+        "topping": 5,
+        "topping_price": "20.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 35,
+    "fields": {
+        "order_item": 43,
+        "topping": 1,
+        "topping_price": "35.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 36,
+    "fields": {
+        "order_item": 45,
+        "topping": 5,
+        "topping_price": "20.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 37,
+    "fields": {
+        "order_item": 46,
+        "topping": 5,
+        "topping_price": "20.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 38,
+    "fields": {
+        "order_item": 47,
+        "topping": 3,
+        "topping_price": "20.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 39,
+    "fields": {
+        "order_item": 48,
+        "topping": 1,
+        "topping_price": "45.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 40,
+    "fields": {
+        "order_item": 50,
+        "topping": 5,
+        "topping_price": "20.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 41,
+    "fields": {
+        "order_item": 52,
+        "topping": 1,
+        "topping_price": "25.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 42,
+    "fields": {
+        "order_item": 52,
+        "topping": 5,
+        "topping_price": "20.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 43,
+    "fields": {
+        "order_item": 52,
+        "topping": 6,
+        "topping_price": "35.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 44,
+    "fields": {
+        "order_item": 54,
+        "topping": 3,
+        "topping_price": "40.00"
+    }
+},
+{
+    "model": "restaurant.orderitemtopping",
+    "pk": 46,
+    "fields": {
+        "order_item": 56,
+        "topping": 1,
+        "topping_price": "35.00"
     }
 }
 ]
