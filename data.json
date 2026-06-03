@@ -120,7 +120,7 @@
   "model": "admin.logentry",
   "pk": 10,
   "fields": {
-    "action_time": "2026-05-16T17:17:27.000Z",
+    "action_time": "2026-05-16T17:17:27Z",
     "user": 1,
     "content_type": 8,
     "object_id": "4",
@@ -442,11 +442,967 @@
   }
 },
 {
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 3,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 3,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 3,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 3,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 2,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 2,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 2,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 2,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add university",
+    "content_type": 19,
+    "codename": "add_university"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change university",
+    "content_type": 19,
+    "codename": "change_university"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete university",
+    "content_type": 19,
+    "codename": "delete_university"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view university",
+    "content_type": 19,
+    "codename": "view_university"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 20,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 20,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 20,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 20,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add allergen",
+    "content_type": 6,
+    "codename": "add_allergen"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change allergen",
+    "content_type": 6,
+    "codename": "change_allergen"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete allergen",
+    "content_type": 6,
+    "codename": "delete_allergen"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view allergen",
+    "content_type": 6,
+    "codename": "view_allergen"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add loyalty program",
+    "content_type": 7,
+    "codename": "add_loyaltyprogram"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change loyalty program",
+    "content_type": 7,
+    "codename": "change_loyaltyprogram"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete loyalty program",
+    "content_type": 7,
+    "codename": "delete_loyaltyprogram"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view loyalty program",
+    "content_type": 7,
+    "codename": "view_loyaltyprogram"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add product",
+    "content_type": 12,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change product",
+    "content_type": 12,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete product",
+    "content_type": 12,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view product",
+    "content_type": 12,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add size",
+    "content_type": 15,
+    "codename": "add_size"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change size",
+    "content_type": 15,
+    "codename": "change_size"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete size",
+    "content_type": 15,
+    "codename": "delete_size"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view size",
+    "content_type": 15,
+    "codename": "view_size"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add topping",
+    "content_type": 16,
+    "codename": "add_topping"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change topping",
+    "content_type": 16,
+    "codename": "change_topping"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete topping",
+    "content_type": 16,
+    "codename": "delete_topping"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view topping",
+    "content_type": 16,
+    "codename": "view_topping"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add order",
+    "content_type": 8,
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change order",
+    "content_type": 8,
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete order",
+    "content_type": 8,
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view order",
+    "content_type": 8,
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add product size",
+    "content_type": 14,
+    "codename": "add_productsize"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change product size",
+    "content_type": 14,
+    "codename": "change_productsize"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete product size",
+    "content_type": 14,
+    "codename": "delete_productsize"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view product size",
+    "content_type": 14,
+    "codename": "view_productsize"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add order item",
+    "content_type": 9,
+    "codename": "add_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change order item",
+    "content_type": 9,
+    "codename": "change_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete order item",
+    "content_type": 9,
+    "codename": "delete_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view order item",
+    "content_type": 9,
+    "codename": "view_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add product allergen",
+    "content_type": 13,
+    "codename": "add_productallergen"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change product allergen",
+    "content_type": 13,
+    "codename": "change_productallergen"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete product allergen",
+    "content_type": 13,
+    "codename": "delete_productallergen"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view product allergen",
+    "content_type": 13,
+    "codename": "view_productallergen"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add pizza topping",
+    "content_type": 11,
+    "codename": "add_pizzatopping"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change pizza topping",
+    "content_type": 11,
+    "codename": "change_pizzatopping"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete pizza topping",
+    "content_type": 11,
+    "codename": "delete_pizzatopping"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view pizza topping",
+    "content_type": 11,
+    "codename": "view_pizzatopping"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add order item topping",
+    "content_type": 10,
+    "codename": "add_orderitemtopping"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change order item topping",
+    "content_type": 10,
+    "codename": "change_orderitemtopping"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete order item topping",
+    "content_type": 10,
+    "codename": "delete_orderitemtopping"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view order item topping",
+    "content_type": 10,
+    "codename": "view_orderitemtopping"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 73,
+  "fields": {
+    "name": "Can add topping allergen",
+    "content_type": 17,
+    "codename": "add_toppingallergen"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 74,
+  "fields": {
+    "name": "Can change topping allergen",
+    "content_type": 17,
+    "codename": "change_toppingallergen"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 75,
+  "fields": {
+    "name": "Can delete topping allergen",
+    "content_type": 17,
+    "codename": "delete_toppingallergen"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 76,
+  "fields": {
+    "name": "Can view topping allergen",
+    "content_type": 17,
+    "codename": "view_toppingallergen"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 77,
+  "fields": {
+    "name": "Can add topping size price",
+    "content_type": 18,
+    "codename": "add_toppingsizeprice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 78,
+  "fields": {
+    "name": "Can change topping size price",
+    "content_type": 18,
+    "codename": "change_toppingsizeprice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 79,
+  "fields": {
+    "name": "Can delete topping size price",
+    "content_type": 18,
+    "codename": "delete_toppingsizeprice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 80,
+  "fields": {
+    "name": "Can view topping size price",
+    "content_type": 18,
+    "codename": "view_toppingsizeprice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 81,
+  "fields": {
+    "name": "Can add user loyalty",
+    "content_type": 21,
+    "codename": "add_userloyalty"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 82,
+  "fields": {
+    "name": "Can change user loyalty",
+    "content_type": 21,
+    "codename": "change_userloyalty"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 83,
+  "fields": {
+    "name": "Can delete user loyalty",
+    "content_type": 21,
+    "codename": "delete_userloyalty"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 84,
+  "fields": {
+    "name": "Can view user loyalty",
+    "content_type": 21,
+    "codename": "view_userloyalty"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "restaurant",
+    "model": "allergen"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "restaurant",
+    "model": "loyaltyprogram"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "restaurant",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "restaurant",
+    "model": "orderitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "restaurant",
+    "model": "orderitemtopping"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "restaurant",
+    "model": "pizzatopping"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "restaurant",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "restaurant",
+    "model": "productallergen"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "restaurant",
+    "model": "productsize"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "restaurant",
+    "model": "size"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "restaurant",
+    "model": "topping"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "restaurant",
+    "model": "toppingallergen"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "restaurant",
+    "model": "toppingsizeprice"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 19,
+  "fields": {
+    "app_label": "restaurant",
+    "model": "university"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 20,
+  "fields": {
+    "app_label": "restaurant",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 21,
+  "fields": {
+    "app_label": "restaurant",
+    "model": "userloyalty"
+  }
+},
+{
   "model": "sessions.session",
   "pk": "a3nw5wpeddb24ncgby4mdlqcd4hm2560",
   "fields": {
     "session_data": ".eJxVjMsOwiAURP-FtSFwb-Xh0r3fQIALUjWQlHZl_HdL0oWuJplzZt7M-W0tbutpcTOxC5Ps9NsFH5-pDkAPX--Nx1bXZQ58KPygnd8apdf1cP8Oiu9lrFHghKSmhKhQ2BBAg7YACgAtGYhZWx_IhiRl3L28p5Amng16yol9vrjHN2w:1wLjW7:nRLI768JkEWE-JOm5Y2z9gxNgV_sC2EFZjDLPmNlXf8",
     "expire_date": "2026-05-23T15:22:59.852Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "e3d8qbykqagxz0tdiot5icwkcjttssq3",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-rT-U9JzBWq9tHECOFCcV4u4QKQW0b2bei0Xc1ha3UZY4ZXZmip1-t4T0KH0H-Y79NnOa-7pMie8KP-jg1zmX5-Vw_w4ajvatE6AErMIbSoLAS6lIV2FrCqRysNYFiwAGnQzGk5FOWdA-e03BajDs_QHT7zbA:1wOL82:17Ncxv6iAP4qm-7ueJ8yhDvVwQyesG0CoIorOyD5R3A",
+    "expire_date": "2026-05-30T19:56:54.846Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gljlpyjncbwrkhksqms7wq6c5fd0ko56",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSFwb-Xh0r3fQIALUjWQlHZl_HdL0oWuJplzZt7M-W0tbutpcTOxC5Ps9NsFH5-pDkAPX--Nx1bXZQ58KPygnd8apdf1cP8Oiu9lrFHghKSmhKhQ2BBAg7YACgAtGYhZWx_IhiRl3L28p5Amng16yol9vrjHN2w:1wUN61:ybWgD27xsJOeyAflcXAqrEqN6gMHBwItUD9Zawi4UII",
+    "expire_date": "2026-06-16T11:15:45.310Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gzfyehutc6rdl2632xz4tmlqkgzfjv92",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnrT6I1JT1niPZjkwCKpTipEHeHSCmgfTPzXmagbR2HreVlmNScTTSn341JHnnegd5pvlUrdV6Xie2u2IM2e62an5fD_TsYqY3fmpQg9cVpSRgheueDEBcXEAhRiZm95j4FQYqACj5Rx31X0IEIsHl_APSlOEk:1wUls1:V8Comuza5NbsZ5I5IxM4xxgkY2nITK9FI3OGJTiQ5PY",
+    "expire_date": "2026-06-17T13:42:57.957Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wqsw42ksso6m0ew65rj8yaptyzkua2r1",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSFwb-Xh0r3fQIALUjWQlHZl_HdL0oWuJplzZt7M-W0tbutpcTOxC5Ps9NsFH5-pDkAPX--Nx1bXZQ58KPygnd8apdf1cP8Oiu9lrFHghKSmhKhQ2BBAg7YACgAtGYhZWx_IhiRl3L28p5Amng16yol9vrjHN2w:1wOKLM:wPtHTX83_fWf83KBDap8ubAaMnpMJtYC7-r5ZLbd6m4",
+    "expire_date": "2026-05-30T19:06:36.667Z"
   }
 },
 {
@@ -490,7 +1446,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$1200000$bYlNJcdcLcIRJcgYoM5utt$u0rdDhqFvbTCB57eyf9PoQJeX0vrcnZW8rwk6PsgMdQ=",
-    "last_login": "2026-05-09T15:22:59.851Z",
+    "last_login": "2026-06-02T11:15:45.309Z",
     "is_superuser": true,
     "username": "admin",
     "first_name": "",
@@ -502,6 +1458,69 @@
     "role": "customer",
     "is_verified_student": false,
     "university": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "restaurant.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$VKncyuoFSfHLyKREy4oJIc$NZnCFqs6q+K0w6mQr2mAB1ZpDHZeSG0F5Bq1B4geMO4=",
+    "last_login": "2026-05-16T19:56:54.841Z",
+    "is_superuser": false,
+    "username": "Jack_Best",
+    "first_name": "Jack",
+    "last_name": "Johhanson",
+    "email": "jack.joh@bi.no",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-16T19:39:07.677Z",
+    "role": "customer",
+    "is_verified_student": true,
+    "university": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "restaurant.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$S2sImdlhCEQIPto4FTCrgy$DaxcPrQPQlKeuNRUs7seufvFsNuA1CAjQwjuInkzCeY=",
+    "last_login": "2026-06-02T10:51:55.035Z",
+    "is_superuser": false,
+    "username": "dario",
+    "first_name": "Dario",
+    "last_name": "Gianelli",
+    "email": "dario@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-02T10:51:54.719Z",
+    "role": "customer",
+    "is_verified_student": false,
+    "university": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "restaurant.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$lagbcSSo6P3TeBU2g6wwjR$cSGLMfqcD/Pkhb567Nb7K6RK5CuXQseePwUQ27LMhiM=",
+    "last_login": "2026-06-03T13:42:57.956Z",
+    "is_superuser": false,
+    "username": "mike",
+    "first_name": "Mike",
+    "last_name": "Johns",
+    "email": "mike90@uio.no",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-03T13:42:57.614Z",
+    "role": "customer",
+    "is_verified_student": true,
+    "university": 2,
     "groups": [],
     "user_permissions": []
   }
@@ -1412,6 +2431,98 @@
     "program_type": "pizza_and_drink",
     "stamps_required": 8,
     "discount_pct": "100.00"
+  }
+},
+{
+  "model": "restaurant.userloyalty",
+  "pk": 1,
+  "fields": {
+    "user": 3,
+    "program": 1,
+    "stamp_count": 1
+  }
+},
+{
+  "model": "restaurant.userloyalty",
+  "pk": 2,
+  "fields": {
+    "user": 4,
+    "program": 1,
+    "stamp_count": 1
+  }
+},
+{
+  "model": "restaurant.order",
+  "pk": 1,
+  "fields": {
+    "user": 3,
+    "loyalty_program": null,
+    "status": "completed",
+    "order_date": "2026-06-02T10:52:05.277Z",
+    "total_price": "189.00",
+    "discount_applied": "0.00",
+    "loyalty_counted": true
+  }
+},
+{
+  "model": "restaurant.order",
+  "pk": 2,
+  "fields": {
+    "user": 4,
+    "loyalty_program": null,
+    "status": "ordered",
+    "order_date": "2026-06-03T13:43:10.931Z",
+    "total_price": "273.60",
+    "discount_applied": "30.40",
+    "loyalty_counted": true
+  }
+},
+{
+  "model": "restaurant.orderitem",
+  "pk": 1,
+  "fields": {
+    "order": 1,
+    "product_size": 4,
+    "quantity": 1,
+    "item_total_price": "189.00"
+  }
+},
+{
+  "model": "restaurant.orderitem",
+  "pk": 2,
+  "fields": {
+    "order": 2,
+    "product_size": 5,
+    "quantity": 1,
+    "item_total_price": "239.00"
+  }
+},
+{
+  "model": "restaurant.orderitem",
+  "pk": 3,
+  "fields": {
+    "order": 2,
+    "product_size": 26,
+    "quantity": 1,
+    "item_total_price": "65.00"
+  }
+},
+{
+  "model": "restaurant.orderitemtopping",
+  "pk": 1,
+  "fields": {
+    "order_item": 1,
+    "topping": 3,
+    "topping_price": "20.00"
+  }
+},
+{
+  "model": "restaurant.orderitemtopping",
+  "pk": 2,
+  "fields": {
+    "order_item": 2,
+    "topping": 3,
+    "topping_price": "30.00"
   }
 }
 ]
