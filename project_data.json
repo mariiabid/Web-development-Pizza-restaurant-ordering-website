@@ -1523,6 +1523,14 @@
 },
 {
     "model": "sessions.session",
+    "pk": "5c616bfpgwvnculdoxsla9kx4fgp7yf3",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlmOvzElPWew1t5dHECOFCcV4u4QKQW0b2beSyTY1pq2TkuaUJyFF6ffLUN5UNsB3qHdZlnmti5TlrsiD9rldUZ6Xg7376BCr9868gjGYwxgYilBsx6itdEpdiMSomOtvOIhq8KKDVvCmIOHQuSNIS_eH-1wOH0:1wUrqb:NoZpCZwI8i10DN86CxElgUjfEGjt6gNC1awSBvUhpww",
+        "expire_date": "2026-06-17T20:05:53.833Z"
+    }
+},
+{
+    "model": "sessions.session",
     "pk": "7ph3poe869y4v00os8py8lg1s39t7v80",
     "fields": {
         "session_data": ".eJxVjEEOwiAQRe_C2hBomRZcuvcMZGYYpGpoUtqV8e7apAvd_vfef6mI21ri1mSJU1Jn5dTpdyPkh9QdpDvW26x5rusykd4VfdCmr3OS5-Vw_w4KtvKthbMPzMn2RIRoe8iBuDPeEVAaeIQQsrPQjU7E5AGRvTj0wIbYIaj3Bxt6OR0:1wUmfj:CJ3soecGzvUOF1gAE33dS4__xzdGb2HdebIst5r10jo",
@@ -1535,14 +1543,6 @@
     "fields": {
         "session_data": ".eJxVjMsOwiAURP-FtSFwb-Xh0r3fQIALUjWQlHZl_HdL0oWuJplzZt7M-W0tbutpcTOxC5Ps9NsFH5-pDkAPX--Nx1bXZQ58KPygnd8apdf1cP8Oiu9lrFHghKSmhKhQ2BBAg7YACgAtGYhZWx_IhiRl3L28p5Amng16yol9vrjHN2w:1wLjW7:nRLI768JkEWE-JOm5Y2z9gxNgV_sC2EFZjDLPmNlXf8",
         "expire_date": "2026-05-23T15:22:59.852Z"
-    }
-},
-{
-    "model": "sessions.session",
-    "pk": "gkqcgzd6gz8ash5gqyv71g45spq9bgj3",
-    "fields": {
-        "session_data": ".eJxVjMsOwiAURP-FtSFwb-Xh0r3fQIALUjWQlHZl_HdL0oWuJplzZt7M-W0tbutpcTOxC5Ps9NsFH5-pDkAPX--Nx1bXZQ58KPygnd8apdf1cP8Oiu9lrFHghKSmhKhQ2BBAg7YACgAtGYhZWx_IhiRl3L28p5Amng16yol9vrjHN2w:1wUqf5:ZvT3_1EofX4plTCXtkdfJdJRAN2V8pSN0Y7xswE7Mr4",
-        "expire_date": "2026-06-17T18:49:55.505Z"
     }
 },
 {
@@ -1691,7 +1691,7 @@
     "pk": 6,
     "fields": {
         "password": "pbkdf2_sha256$1200000$rK8lHuXPETRA3uid89XHKt$9RgX/IGyGsNUnOQ6uuAB+cOQxXl5ytcSUFkHijwpBtE=",
-        "last_login": null,
+        "last_login": "2026-06-03T20:05:53.832Z",
         "is_superuser": false,
         "username": "guest_user",
         "first_name": "",
@@ -2683,6 +2683,19 @@
         "loyalty_program": null,
         "status": "in_basket",
         "order_date": "2026-06-03T13:26:47.396Z",
+        "total_price": "0.00",
+        "discount_applied": "0.00",
+        "loyalty_counted": false
+    }
+},
+{
+    "model": "restaurant.order",
+    "pk": 6,
+    "fields": {
+        "user": 6,
+        "loyalty_program": null,
+        "status": "in_basket",
+        "order_date": "2026-06-03T20:05:59.259Z",
         "total_price": "0.00",
         "discount_applied": "0.00",
         "loyalty_counted": false
