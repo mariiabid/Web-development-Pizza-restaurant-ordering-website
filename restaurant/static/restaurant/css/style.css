@@ -13,6 +13,13 @@ body {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
+.hero {
+    background: linear-gradient(135deg, #c0392b, #e67e22);
+    padding: 60px 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
 .card:hover {
     transform: translateY(-5px);
 }
